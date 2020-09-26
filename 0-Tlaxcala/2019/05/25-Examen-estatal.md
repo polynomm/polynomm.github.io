@@ -27,7 +27,7 @@ Delegación Tlaxcala, concurso estatal.
 
 Mauro coloca los números del 1 al 10 en los vértices de un decágono. Después, coloca en cada arista la suma de los dos números en sus extremos. De los 10 números en las aristas, llama al mayor de ellos \\( A \\), y al menor de ellos \\( B\\). 
 
-> **a.** ¿Podrá Mauro acomodar los números de tal manera que \\( A — B= 2\\)? 
+> **a.** ¿Podrá Mauro acomodar los números de tal manera que \\( A-B= 2\\)? 
 > 
 > **b** ¿Podrá Mauro acomodar los números de tal manera que \\( A-B=1 \\)? 
 
