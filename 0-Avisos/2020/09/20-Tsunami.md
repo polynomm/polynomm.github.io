@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 20 de Septiembre<br>Tsunami
-nav_order: 2
+nav_order: 2020-09-20
 description: "Aviso 22 de Agosto"
 last_modified_date: 2020-08-22T18:30:00+0000
 grand_parent: Avisos

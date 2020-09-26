@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Examen selectivo OMMEB 2020
-nav_order: 1
+nav_order: 2020-08-29
 description: "Versión final"
 last_modified_date: 2020-08-29T10:00:00+0000
 grand_parent: Tlaxcala

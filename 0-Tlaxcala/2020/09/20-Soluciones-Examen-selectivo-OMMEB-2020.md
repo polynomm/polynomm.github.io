@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Soluciones del Examen selectivo OMMEB 2020
-nav_order: 2
+nav_order: 2020-09-20
 description: "Soluciones completas del examen."
-last_modified_date: 2020-08-29T10:00:00+0000
+last_modified_date: 2020-09-20T18:00:00+0000
 grand_parent: Tlaxcala
 parent: Tlaxcala 2020
 ---

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 2019 OMM Concurso estatal
+nav_order: 2019-05-25
 description: "Etapa estatal de la OMM 2019 en Tlaxcala"
 last_modified_date: 2020-09-23T20:00:00+0000
 parent: Tlaxcala 2019
