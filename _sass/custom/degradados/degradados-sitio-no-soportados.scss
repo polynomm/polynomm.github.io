@@ -51,6 +51,10 @@
   a:not([class]) {
     //Con esto se aplica el deg-sitio correctamente a los links sin clase.
     display: inline-flex;
+    &:hover {
+      color: #7e7e7e;
+      background-color: transparent;
+    }
   }
 
   .site-title:hover,
