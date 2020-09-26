@@ -3,11 +3,26 @@
     "assets/css/just-the-docs-default.scss",
     "assets/css/just-the-docs-light.scss",
     "assets/css/just-the-docs-dark.scss",
+    "assets/css/just-the-docs-degSitio.scss",
+    "assets/css/just-the-docs-degArcoiris.scss",
+    "assets/css/just-the-docs-degAzul.scss",
+    "assets/css/just-the-docs-degDorado.scss",
+    "assets/css/just-the-docs-degEspecial.scss",
+    "assets/css/just-the-docs-degMorado.scss",
+    "assets/css/just-the-docs-degNaranja.scss",
+    "assets/css/just-the-docs-degRojo.scss",
+    "assets/css/just-the-docs-degRosa.scss",
+    "assets/css/just-the-docs-degVerde.scss",
     "_sass/vendor/**/*.scss"
   ],
   "extends": ["stylelint-config-primer", "stylelint-config-prettier"],
   "plugins": ["stylelint-prettier"],
   "rules": {
-    "prettier/prettier": true
+    "prettier/prettier": true,
+    "property-no-vendor-prefix": null,
+    "selector-max-type": 3,
+    "selector-max-id": 1,
+    "selector-max-specificity": "1,4,0",
+    "selector-no-qualifying-type":null
   }
 }

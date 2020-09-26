@@ -1,0 +1,98 @@
+@use "sass:map";
+//deg-sitio
+
+/*
+Para un deg-sitio, sólo es necesario especificar dos clases:
+.deg-sitio
+.deg-sitio-fondo o .deg-sitio-texto, según lo que se quiera.
+*/
+
+//deg-sitio predeterminado en variables propias, sección deg-sitio.
+
+//Esto para bloques matemáticos display mode latex
+
+@mixin deg($deg) {
+  background-image: $deg;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+//deg-sitio a fondo o texto
+@mixin deg-texto {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@mixin deg-fondo($color) {
+  -webkit-text-fill-color: $color;
+  -webkit-background-clip: padding-box;
+}
+
+//Coloreado alternativo sin deg-sitio
+@mixin alter-texto($colorTexto) {
+  color: $colorTexto;
+  background-color: unset;
+  background-image: unset;
+  background-attachment: unset;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+
+@mixin alter-fondo($colorTexto, $colorFondo) {
+  color: $colorTexto;
+  background-color: $colorFondo;
+  background-image: unset;
+  background-attachment: unset;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+
+//Se important las configuraciones del degradado después de declarar las secuencias mixin
+@import "./degradados-fijos.scss";
+@import "./degradados-sitio-soportados.scss";
+@import "./degradados-sitio-no-soportados.scss";
+
+*::selection {
+  color: #fff;
+  background: map-get($colores-deg-sitio, alter-sitio);
+  -webkit-text-fill-color: #fff;
+}
+
+//Geogebra
+
+//Botón flotante mover (circular)
+.GeoGebraFrame .moveFloatingBtn,
+.GeoGebraFrame .showMoveBtn,
+.GeoGebraFrame .hideMoveBtn {
+  background-color: map-get($colores-deg-sitio, alter-sitio);
+}
+//Botón flotante mover (circular) con evento de mouse
+.GeoGebraFrame .moveFloatingBtn:hover,
+.GeoGebraFrame .showMoveBtn:hover,
+.GeoGebraFrame .hideMoveBtn:hover,
+.GeoGebraFrame .moveFloatingBtn:focus,
+.GeoGebraFrame .showMoveBtn:focus,
+.GeoGebraFrame .hideMoveBtn:focus {
+  background-color: mix(map-get($colores-deg-sitio, alter-sitio), #111, 90%);
+}
+
+.GeoGebraFrame .toolButton[selected="true"] .gwt-Label {
+  font-weight: 600;
+  color: map-get($colores-deg-sitio, alter-sitio);
+}
+
+//Etiqueta de herramienta seleccionada
+.GeoGebraFrame .toolButton[selected="true"] .gwt-Label,
+.GeoGebraFrame .matAvDesign .NewRadioButtonTreeItemParent,
+.GeoGebraFrame .NewRadioButtonTreeItemParent,
+.GeoGebraFrame .gwt-Button.selected {
+  color: map-get($colores-deg-sitio, alter-sitio);
+}
+.GeoGebraFrame .KeyboardSwitcher *:hover {
+  color: mix(map-get($colores-deg-sitio, alter-sitio), #000, 90%);
+}
+//Borde escritura álgebra
+.GeoGebraFrame .matAvDesign .NewRadioButtonTreeItemParent {
+  border-top: map-get($colores-deg-sitio, alter-sitio) solid 1px;
+  border-bottom: map-get($colores-deg-sitio, alter-sitio) solid 1px;
+}

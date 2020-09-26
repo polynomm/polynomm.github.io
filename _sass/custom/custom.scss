@@ -1,0 +1,34 @@
+@import "./degradados/degradados.scss";
+@import "./fuentes";
+@import "./imprimir.scss";
+@import "./geogebra.scss";
+
+.tabla td {
+  min-width: 120px !important;
+}
+
+p > mjx-container {
+  overflow-x: scroll;
+}
+
+//Aquellos códigos que no son degradados para ambos
+//Display mathjax
+.grid {
+  display: grid;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+#markdown-toc {
+  overflow-x: scroll;
+}
+
+.site-title {
+  padding-top: 12px;
+}
+
+.math {
+  overflow-x: scroll;
+}

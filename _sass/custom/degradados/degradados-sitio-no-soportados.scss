@@ -1,0 +1,170 @@
+/*
+ Tema sin deg-sitios impresión y móvil
+ */
+
+@media not screen and (min-width: map-get($media-queries,md)) {
+  a {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+  }
+
+  h1:hover,
+  h2:hover,
+  h3:hover,
+  h4:hover,
+  h5:hover,
+  h6:hover {
+    a {
+      //Los símbolos junto a los encabezados (svg) son el contenido
+      -webkit-background-clip: none;
+      svg {
+        @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+        mix-blend-mode: unset;
+      }
+    }
+  }
+
+  .search-result-highlight {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+    display: inline-flex;
+  }
+
+  a:hover {
+    @include alter-fondo(
+      map-get($colores-deg-sitio, alter-sitio-texto-color),
+      map-get($colores-deg-sitio, alter-sitio)
+    );
+  }
+
+  a.search-result {
+    color: bg-grey-dk-000;
+    background-image: unset;
+  }
+
+  a:not(.btn) {
+    //Se hacer que el texto tenga la $background-image de fondo.
+
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+    $link-color: #000;
+    //cuando el mouse se posiciona.
+  }
+
+  a:not([class]) {
+    //Con esto se aplica el deg-sitio correctamente a los links sin clase.
+    display: inline-flex;
+  }
+
+  .site-title:hover,
+  .site-button:hover,
+  .nav-list .nav-list-item .nav-list-link:hover,
+  .nav-list .nav-list-item .nav-list-link.active {
+    @include alter-fondo(
+      map-get($colores-deg-sitio, alter-sitio-texto-color),
+      map-get($colores-deg-sitio, alter-sitio)
+    );
+  }
+
+  .nav-list-link:hover,
+  .nav-list-link.active,
+  .nav-list-link:hover *,
+  .nav-list-link.active * {
+    -webkit-text-fill-color: map-get(
+      $colores-deg-sitio,
+      alter-sitio-texto-color
+    ) !important;
+    color: map-get($colores-deg-sitio, alter-sitio-texto-color) !important;
+  }
+  .site-button:hover {
+    svg {
+      color: #fff;
+    }
+  }
+  .site-title.lh-tight:hover::before,
+  .site-title.lh-tight:active::before {
+    position: absolute;
+    font-family: QuickSand;
+    content: "POLYNOMM";
+  }
+
+  .site-title.lh-tight:hover mjx-container,
+  .site-title.lh-tight:active mjx-container {
+    visibility: hidden;
+  }
+
+  .nav-list-item > .nav-list .nav-list-link {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+  }
+
+  //Esto es duplicado de deg-sitio.
+  .nav-list-link mjx-container {
+    position: static;
+  }
+
+  //Esto cambia los colores para móvil e impresión de todas las clases que no sean las anteriores (links del sitio etc)
+  .deg-sitio {
+    @include alter-fondo(
+      map-get($colores-deg-sitio, alter-sitio-texto-color),
+      map-get($colores-deg-sitio, alter-sitio)
+    );
+  }
+
+  .deg-sitio-texto {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+    display: inline-flex;
+    &::selection {
+      -webkit-text-fill-color: #fff;
+    }
+  }
+  .deg-sitio-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+  }
+
+  .deg-sitio.deg-sitio-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+  }
+
+  /* Let's get this party started */
+  ::-webkit-scrollbar {
+    position: static;
+    width: 8px;
+  }
+
+  /* Track
+  ::-webkit-scrollbar-track {
+  }
+  */
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    position: fixed;
+    background-color: $grey-dk-000;
+    border-radius: 10px;
+    @include alter-fondo(
+      map-get($colores-deg-sitio, alter-sitio-texto-color),
+      map-get($colores-deg-sitio, alter-sitio)
+    );
+  }
+
+  /* Let's get this party started */
+  ::-webkit-scrollbar:horizontal {
+    position: static;
+    height: 8px;
+  }
+
+  /* Track
+  ::-webkit-scrollbar-track {
+  }
+  */
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb:horizontal {
+    position: fixed;
+    background-color: $grey-dk-000;
+    border-radius: 10px;
+  }
+
+  //Geogebra
+  //Barra lateral
+  .header-open-landscape {
+    background-color: map-get($colores-deg-sitio, alter-sitio);
+  }
+}

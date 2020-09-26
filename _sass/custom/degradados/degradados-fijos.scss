@@ -1,0 +1,299 @@
+/*
+deg-sitios secundarios para coloreado...
+*/
+$colores-deg-especial: (
+  deg-especial:
+    linear-gradient(
+      to top,
+      #ff0018 0%,
+      #ff0417 6.25%,
+      #ff310e 12.5%,
+      #ff5d06 18.75%,
+      #ff7a01 25%,
+      #ff8701 31.25%,
+      #ffae00 37.5%,
+      #d9c507 43.75%,
+      #79c718 50%,
+      #01c92d 56.25%,
+      #01be69 62.5%,
+      #01b3aa 68.75%,
+      #0ba1df 75%,
+      #3f77e6 81.25%,
+      #724cec 87.5%,
+      #8a39ef 93.75%,
+      #8a39ef 100%
+    ),
+  alter-especial: #8a39ef,
+  deg-especial-texto-color: #fff,
+  alter-especial-texto-color: #fff,
+);
+$colores-deg-algebra: (
+  deg-algebra: linear-gradient(to top, #aaa 0%, #aaa 30%, #888 70%, #888 100%),
+  alter-algebra: #888,
+  deg-algebra-texto-color: #fff,
+  alter-algebra-texto-color: #fff,
+);
+$colores-deg-casillas: (
+  deg-casillas:
+    linear-gradient(to top, #b9c9f2 0%, #b9c9f2 30%, #7aa0ff 70%, #7aa0ff 100%),
+  alter-casillas: #7aa0ff,
+  deg-casillas-texto-color: #fff,
+  alter-casillas-texto-color: #fff,
+);
+$colores-deg-combinatoria: (
+  deg-combinatoria:
+    linear-gradient(to top, #ff5c5c 0%, #ff5c5c 30%, #ff1500 70%, #ff1500 100%),
+  alter-combinatoria: rgba(255, 0, 0, 1),
+  deg-combinatoria-texto-color: #fff,
+  alter-combinatoria-texto-color: #fff,
+);
+$colores-deg-desigualdades: (
+  deg-desigualdades:
+    linear-gradient(to top, rgb(255, 143, 178) 0%, rgba(255, 0, 159, 1) 80%),
+  alter-desigualdades: rgba(255, 0, 159, 1),
+  deg-desigualdades-texto-color: #fff,
+  alter-desigualdades-texto-color: #fff,
+);
+$colores-deg-geometria: (
+  deg-geometria:
+    linear-gradient(to top, #00e00f 0%, #00e00f 30%, #02b328 70%, #02b328 100%),
+  alter-geometria: #02b328,
+  deg-geometria-texto-color: #fff,
+  alter-geometria-texto-color: #fff,
+);
+
+$colores-deg-numeros: (
+  deg-numeros: linear-gradient(to top, #66f 0%, #66f 30%, #00f 70%, #00f 100%),
+  alter-numeros: #00f,
+  deg-numeros-texto-color: #fff,
+  alter-numeros-texto-color: #fff,
+);
+.deg-algebra-texto,
+.deg-casillas-texto,
+.deg-combinatoria-texto,
+.deg-desigualdades-texto,
+.deg-especial-texto,
+.deg-geometria-texto,
+.deg-numeros-texto {
+  display: inline-flex;
+}
+.deg-especial {
+  @include deg(map-get($colores-deg-especial, deg-especial));
+}
+
+.deg-especial-texto {
+  @include deg-texto();
+}
+
+.deg-especial-fondo {
+  @include deg-fondo(map-get($colores-deg-especial, deg-especial-texto-color));
+}
+.deg-algebra {
+  @include deg(map-get($colores-deg-algebra, deg-algebra));
+}
+
+.deg-algebra-texto {
+  @include deg-texto();
+}
+
+.deg-algebra-fondo {
+  @include deg-fondo(map-get($colores-deg-algebra, deg-algebra-texto-color));
+}
+.deg-casillas {
+  @include deg(map-get($colores-deg-casillas, deg-casillas));
+}
+
+.deg-casillas-texto {
+  @include deg-texto();
+}
+
+.deg-casillas-fondo {
+  @include deg-fondo(map-get($colores-deg-casillas, deg-casillas-texto-color));
+}
+
+.deg-combinatoria {
+  @include deg(map-get($colores-deg-combinatoria, deg-combinatoria));
+}
+
+.deg-combinatoria-texto {
+  @include deg-texto();
+}
+
+.deg-combinatoria-fondo {
+  @include deg-fondo(
+    map-get($colores-deg-combinatoria, deg-combinatoria-texto-color)
+  );
+}
+
+.deg-desigualdades {
+  @include deg(map-get($colores-deg-desigualdades, deg-desigualdades));
+}
+
+.deg-desigualdades-texto {
+  @include deg-texto();
+}
+
+.deg-desigualdades-fondo {
+  @include deg-fondo(
+    map-get($colores-deg-desigualdades, deg-desigualdades-texto-color)
+  );
+}
+.deg-geometria {
+  @include deg(map-get($colores-deg-geometria, deg-geometria));
+}
+
+.deg-geometria-texto {
+  @include deg-texto();
+}
+
+.deg-geometria-fondo {
+  @include deg-fondo(
+    map-get($colores-deg-geometria, deg-geometria-texto-color)
+  );
+}
+
+.deg-numeros {
+  @include deg(map-get($colores-deg-numeros, deg-numeros));
+}
+
+.deg-numeros-texto {
+  @include deg-texto();
+}
+
+.deg-numeros-fondo {
+  @include deg-fondo(map-get($colores-deg-numeros, deg-numeros-texto-color));
+}
+
+@media not screen and (min-width: map-get($media-queries,md)) {
+  .deg-especial {
+    @include alter-fondo(
+      map-get($colores-deg-especial, alter-especial-texto-color),
+      map-get($colores-deg-especial, alter-especial)
+    );
+  }
+
+  .deg-especial-texto {
+    @include alter-texto(map-get($colores-deg-especial, alter-especial));
+  }
+  .deg-especial-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-especial, alter-especial));
+  }
+
+  .deg-especial.deg-especial-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-especial, alter-especial));
+  }
+  .deg-algebra {
+    @include alter-fondo(
+      map-get($colores-deg-algebra, alter-algebra-texto-color),
+      map-get($colores-deg-algebra, alter-algebra)
+    );
+  }
+
+  .deg-algebra-texto {
+    @include alter-texto(map-get($colores-deg-algebra, alter-algebra));
+  }
+  .deg-algebra-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-algebra, alter-algebra));
+  }
+
+  .deg-algebra.deg-algebra-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-algebra, alter-algebra));
+  }
+  .deg-casillas {
+    @include alter-fondo(
+      map-get($colores-deg-casillas, alter-casillas-texto-color),
+      map-get($colores-deg-casillas, alter-casillas)
+    );
+  }
+
+  .deg-casillas-texto {
+    @include alter-texto(map-get($colores-deg-casillas, alter-casillas));
+  }
+  .deg-casillas-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-casillas, alter-casillas));
+  }
+
+  .deg-casillas.deg-casillas-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-casillas, alter-casillas));
+  }
+  .deg-combinatoria {
+    @include alter-fondo(
+      map-get($colores-deg-combinatoria, alter-combinatoria-texto-color),
+      map-get($colores-deg-combinatoria, alter-combinatoria)
+    );
+  }
+
+  .deg-combinatoria-texto {
+    @include alter-texto(
+      map-get($colores-deg-combinatoria, alter-combinatoria)
+    );
+  }
+  .deg-combinatoria-texto > mjx-container {
+    @include alter-texto(
+      map-get($colores-deg-combinatoria, alter-combinatoria)
+    );
+  }
+
+  .deg-combinatoria.deg-combinatoria-texto > mjx-container {
+    @include alter-texto(
+      map-get($colores-deg-combinatoria, alter-combinatoria)
+    );
+  }
+  .deg-desigualdades {
+    @include alter-fondo(
+      map-get($colores-deg-desigualdades, alter-desigualdades-texto-color),
+      map-get($colores-deg-desigualdades, alter-desigualdades)
+    );
+  }
+
+  .deg-desigualdades-texto {
+    @include alter-texto(
+      map-get($colores-deg-desigualdades, alter-desigualdades)
+    );
+  }
+  .deg-desigualdades-texto > mjx-container {
+    @include alter-texto(
+      map-get($colores-deg-desigualdades, alter-desigualdades)
+    );
+  }
+
+  .deg-desigualdades.deg-desigualdades-texto > mjx-container {
+    @include alter-texto(
+      map-get($colores-deg-desigualdades, alter-desigualdades)
+    );
+  }
+  .deg-geometria {
+    @include alter-fondo(
+      map-get($colores-deg-geometria, alter-geometria-texto-color),
+      map-get($colores-deg-geometria, alter-geometria)
+    );
+  }
+
+  .deg-geometria-texto {
+    @include alter-texto(map-get($colores-deg-geometria, alter-geometria));
+  }
+  .deg-geometria-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-geometria, alter-geometria));
+  }
+
+  .deg-geometria.deg-geometria-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-geometria, alter-geometria));
+  }
+  .deg-numeros {
+    @include alter-fondo(
+      map-get($colores-deg-numeros, alter-numeros-texto-color),
+      map-get($colores-deg-numeros, alter-numeros)
+    );
+  }
+
+  .deg-numeros-texto {
+    @include alter-texto(map-get($colores-deg-numeros, alter-numeros));
+  }
+  .deg-numeros-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-numeros, alter-numeros));
+  }
+
+  .deg-numeros.deg-numeros-texto > mjx-container {
+    @include alter-texto(map-get($colores-deg-numeros, alter-numeros));
+  }
+}

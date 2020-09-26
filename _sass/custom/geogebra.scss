@@ -1,0 +1,39 @@
+// geo<%> clase de contenedor, según cómo se quiera imprimir.
+
+.main.tools,
+.main.algebra {
+  margin-left: inherit;
+  background-color: #fff;
+}
+.GeoGebraFrame {
+  ::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    background-image: unset;
+  }
+}
+
+th,
+td {
+  min-width: unset;
+}
+
+.gwt-MenuItem {
+  &::before {
+    display: none;
+  }
+}
+ul.gwt-MenuBar {
+  padding-left: 0;
+  li::before {
+    display: none;
+  }
+}
+[class*="geo-"] {
+  margin: auto;
+}
+.geo-100 {
+  width: 100%;
+}
+.geo-75 {
+  width: 75%;
+}

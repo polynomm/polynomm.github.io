@@ -75,6 +75,7 @@
 .site-header,
 .site-footer {
   width: 100%;
+  font-family: Quicksand;
 
   @include mq(lg) {
     width: $nav-width;

@@ -1,0 +1,197 @@
+$colores-deg-sitio: (
+  deg-sitio: linear-gradient(to top, #21d4fd 0%, #b721ff 100%),
+  alter-sitio: #6b7afe,
+  deg-sitio-texto-color: #fff,
+  alter-sitio-texto-color: #fff,
+) !default;
+@media only screen and (min-width: map-get($media-queries,md)) {
+  .deg-sitio {
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+  }
+
+  .deg-sitio-texto {
+    @include deg-texto();
+    display: inline-flex;
+    &::selection {
+      -webkit-text-fill-color: #fff;
+    }
+  }
+
+  .deg-sitio-fondo {
+    @include deg-fondo(map-get($colores-deg-sitio, deg-sitio-texto-color));
+  }
+
+  /*
+Ajuste para deg-sitios según tema
+*/
+  a {
+    color: #27262b;
+    background-size: 100% 100%;
+  }
+  h1:hover,
+  h2:hover,
+  h3:hover,
+  h4:hover,
+  h5:hover,
+  h6:hover {
+    a {
+      //Los símbolos junto a los encabezados (svg) son el contenido
+      -webkit-background-clip: content-box;
+      //Se coloca mix blend mode en svg para que cambie a deg-sitio.
+      svg {
+        color: #000;
+        background: #fff;
+        mix-blend-mode: screen;
+      }
+    }
+  }
+  //Se utiliza el display inline flex para que no cambie nada excepto el deg-sitio, y además muestre este correctamente
+  //Esto se hace en general con todos los elementos en una línea
+  .search-result-highlight {
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+    @include deg-texto;
+    display: inline-flex;
+  }
+
+  //Todos los links pasan a tener deg-sitio tipo texto
+  a:hover {
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+    @include deg-texto;
+  }
+
+  //En search result es importante que no se apliquen deg-sitios y que al colocar el mouse no cambie display a inline flex
+  a.search-result {
+    color: #000;
+    -webkit-text-fill-color: unset !important;
+    background-image: none !important;
+    &:hover {
+      display: block !important;
+    }
+  }
+
+  //Inline bock mantiene en su lugar el ícono
+  a.nav-list-expander svg {
+    display: inline-block;
+  }
+
+  a:not(.btn) {
+    //Se hacer que el texto tenga la $background-image de fondo.
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+    @include deg-texto;
+    $link-color: #000;
+    //cuando el mouse se posiciona.
+  }
+
+  a:not([class]) {
+    //Con esto se aplica el deg-sitio correctamente a los links sin clase.
+    display: inline-flex;
+  }
+
+  //links barra de navegación
+  .site-title:hover,
+  .site-button:hover,
+  .nav-list .nav-list-item .nav-list-link:hover,
+  .nav-list .nav-list-item .nav-list-link.active {
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+    @include deg-fondo(map-get($colores-deg-sitio, deg-sitio-texto-color));
+  }
+  .nav-list .nav-list-link * {
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+    @include deg-texto();
+  }
+  .nav-list-link:hover,
+  .nav-list-link.active {
+    * {
+      -webkit-text-fill-color: #fff !important;
+    }
+  }
+
+  //Estos son los links junto a la barra de búsqueda. Necesita cambiar el texto a blanco.
+  .site-button:hover {
+    &svg {
+      color: #fff;
+    }
+  }
+
+  //Esto es el botón inicial con pseudoclase before. Sirve para agregar el texto de POLYNOMM
+  .site-title.lh-tight:hover::before,
+  .site-title.lh-tight:active::before {
+    position: absolute;
+    content: "POLYNOMM";
+  }
+  .site-title.lh-tight:hover mjx-container,
+  .site-title.lh-tight:active mjx-container {
+    visibility: hidden;
+  }
+
+  //Barra de navegación
+  .nav-list-item > .nav-list .nav-list-link {
+    color: map-get($colores-deg-sitio, deg-sitio-texto-color);
+  }
+
+  //Esto es sólo si la  del
+
+  a.nav-list-link mjx-container {
+    position: static;
+    display: inline-flex;
+  }
+
+  .deg-sitio.deg-sitio-texto > mjx-container {
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+    @include deg-texto;
+  }
+
+  .math.grid.deg-sitio.deg-sitio-fondo {
+    -webkit-background-clip: content-box;
+    mjx-container {
+      margin: 0;
+      -webkit-text-fill-color: #000;
+      background: #fff;
+      mix-blend-mode: screen;
+    }
+  }
+
+  /* Let's get this party started */
+  ::-webkit-scrollbar {
+    position: static !important;
+    width: 8px;
+  }
+
+  /* ::-webkit-scrollbar-track {
+  } */
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+    position: fixed !important;
+    background-color: $grey-dk-000;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+  /* Let's get this party started */
+  ::-webkit-scrollbar:horizontal {
+    position: static !important;
+    height: 8px;
+  }
+
+  /* ::-webkit-scrollbar-track {
+  } */
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb:horizontal {
+    position: fixed !important;
+    background-color: $grey-dk-000;
+    background-image: unset;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+  //Geogebra
+  //Barra lateral
+  .header-open-landscape {
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+    @include deg-fondo(map-get($colores-deg-sitio, deg-sitio));
+    background-color: #fff;
+  }
+}
