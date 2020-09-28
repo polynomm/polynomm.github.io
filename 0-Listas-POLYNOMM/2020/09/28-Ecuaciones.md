@@ -33,7 +33,7 @@ También puedes intentar el [**Problema&nbsp;<span class="deg-sitio deg-sitio-te
 {: .no_toc}
 <!--Math League HS 2010-2011 https://davidaltizio.web.illinois.edu/More%20Diophantine%20Equations%20Overview.pdf-->
 
-Encuentra todos los pares de enteros positivos \\(a,b\\) tales que \\(a^2+b\\) excede a \\(b^2+a\\) por 36.
+Encuentra todos los pares de enteros positivos \\((a,b)\\) tales que \\(a^2+b\\) excede a \\(b^2+a\\) por 36.
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">2</span>
 {: .no_toc}
 
@@ -47,6 +47,7 @@ Encuentra todos los pares de enteros positivos \\(a,b\\) tales que \\(a^2+b\\) e
 Si \\( y+4 = (x-2)^2 \\), \\(x+4 = (y-2)^2\\) y \\( x\ne y \\), encuentra el valor de \\( x^2+y^2\\).
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">4</span>
+{: .no_toc}
 
 <!-- Art of Problem Solving. (s. f.). AoPS. https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_15 -->
 Encuentra el valor de \\( a_{}^{}x^5 + b_{}y^5\\), si los números reales \\( a \\), \\( b \\), \\( x \\), y \\( y\\) satisfacen las siguientes ecuaciones:
