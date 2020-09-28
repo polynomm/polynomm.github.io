@@ -27,7 +27,7 @@ Teoría de números
 
 ---
 
-También puedes intentar el [**Problema&nbsp;<span class="deg-sitio deg-sitio-texto">5</span>**&nbsp;de la&nbsp;**Olimpiada Regional de Occidente (ORO)&nbsp;<span class="deg-sitio deg-sitio-texto">2020</span>**&nbsp;](https://polynomm.github.io/0-OMM/Regional/2020/2020-ORO/)
+También puedes intentar el [**Problema&nbsp;<span class="deg-sitio deg-sitio-texto">5</span>**](https://polynomm.github.io/0-OMM/Regional/2020/2020-ORO/#problema5) de la [**Olimpiada Regional de Occidente (ORO)&nbsp;<span class="deg-sitio deg-sitio-texto">2020</span>**&nbsp;](https://polynomm.github.io/0-OMM/Regional/2020/2020-ORO/).
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">1</span>
 {: .no_toc}
