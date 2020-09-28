@@ -8,9 +8,9 @@ grand_parent: Listas POLYNOMM
 parent: POLYNOMM 2020
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degRosa.css' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degAzul.css' | absolute_url }}">
 <script>
-    jtd.setTheme('degRosa');
+    jtd.setTheme('degAzul');
 </script>
 
 # <span class="deg-sitio deg-sitio-texto">Ecuaciones</span><i class="jpa-anim-rel-fire jpa-2em"></i>
@@ -27,7 +27,7 @@ Teoría de números
 
 ---
 
-También puedes intentar el [**Problema&nbsp;<span class="deg-sitio deg-sitio-texto">5</span>**](https://polynomm.github.io/0-OMM/Regional/2020/2020-ORO/#problema5) de la [**Olimpiada Regional de Occidente (ORO)&nbsp;<span class="deg-sitio deg-sitio-texto">2020</span>**&nbsp;](https://polynomm.github.io/0-OMM/Regional/2020/2020-ORO/).
+También puedes intentar el [**Problema&nbsp;<span class="deg-sitio deg-sitio-texto">5</span>**](https://polynomm.github.io/0-OMM/Regional/2020/2020-ORO/#problema5) de la [**ORO&nbsp;<span class="deg-sitio deg-sitio-texto">2020</span>**](https://polynomm.github.io/0-OMM/Regional/2020/2020-ORO/) <i class="jpa-anim-rel-cowboy_hat_face jpa-2em"></i>
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">1</span>
 {: .no_toc}
