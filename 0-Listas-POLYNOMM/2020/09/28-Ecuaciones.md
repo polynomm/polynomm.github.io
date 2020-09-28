@@ -2,8 +2,8 @@
 layout: default
 title: Ecuaciones
 nav_order: 2020-09-28
-description: "Versión final"
-last_modified_date: 2020-08-29T10:00:00+0000
+description: "Ecuaciones diofantinas y de soluciones reales"
+last_modified_date: 2020-09-28T13:00:00+0000
 grand_parent: Listas POLYNOMM
 parent: POLYNOMM 2020
 ---
