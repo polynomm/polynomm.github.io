@@ -103,6 +103,10 @@ Ajuste para deg-sitios según tema
   .nav-list-link.active {
     * {
       -webkit-text-fill-color: #fff !important;
+      border-color: map-get(
+        $colores-deg-sitio,
+        alter-sitio-texto-color
+      ) !important;
     }
   }
 
@@ -141,12 +145,13 @@ Ajuste para deg-sitios según tema
     @include deg-texto;
   }
 
-  .math.grid.deg-sitio.deg-sitio-fondo {
+  [class*="deg-"].math {
     -webkit-background-clip: content-box;
-    mjx-container {
+    .MJX-TEX {
       margin: 0;
       -webkit-text-fill-color: #000;
-      background: #fff;
+      background-color: #fff;
+      border-color: #fff;
       mix-blend-mode: screen;
     }
   }

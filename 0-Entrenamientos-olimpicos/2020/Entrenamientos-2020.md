@@ -18,5 +18,3 @@ has_children: true
 
 En esta sección se incluyen los principios y lineamientos de POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>. Lee cuidadosamente cada apartado, sobre todo si eres invitado a colaborar.
 {:.fs-6 .fw-300}
-
----

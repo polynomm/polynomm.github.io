@@ -118,7 +118,7 @@ Los números que tienen dos divisores son los números primos. Dado que los núm
 $$
 11+13+17+19+23+29=112
 $$
-{:.math .grid}
+{:.math }
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">1A-4</span>
 
@@ -161,7 +161,7 @@ Podemos hacer lo siguiente: para cada círculo, contamos cuántos círculos son 
 $$
 \frac{3\cdot2+3\cdot4(n-2)+6\frac{(n-3)(n-2)}{2}}{2},\;\;\;\;n > 2
 $$
-{:.math .grid}
+{:.math }
 
 Donde \\( 3\cdot 2\\) es el número de círculos tangentes a los círculos en los vértices; \\( 3\cdot4(n-2) \\) el número de círculos tangentes a los círculos de los bordes y \\( 6\frac{(n-3)(n-2)}{2} \\) el número de círculos tangentes a los círculos interiores. Con \\( n=5 \\), se obtienen 30 ochos posibles.
 
@@ -179,7 +179,7 @@ El número de círculos que hay sin contar los de la última hilera es \\( \frac
 $$
 3\cdot \frac{(n-1)n}{2},\;\;\;\;n\in\mathbb{N}
 $$
-{:.math .grid}
+{:.math }
 
 Y cuando \\( n=5 \\), hay 30 ochos.
 
@@ -190,7 +190,7 @@ La secuencia de Fibonacci está definida por \\(F_1=F_2=1 \\) y \\( F_{n+2}=F_{n
 ¿Cuál es el residuo que se obtiene al dividir
 
 $$F_{2020}+F_{2019}+...+F_2+F_1$$
-{:.math .grid}
+{:.math }
 
 entre 5?
 
@@ -208,7 +208,7 @@ Basta con ver los primeros 20 residuos al dividir entre 5 de la secuencia:
 $$
 1,1,2,3,0,3,3,1,4,0,4,4,3,2,0,2,2,4,1,0
 $$
-{:.math .grid}
+{:.math }
 
 Vemos que, cada 20 términos, la secuencia repite sus residuos. Finalmente:
 
@@ -220,7 +220,7 @@ $$
    &\equiv 0 \mod{5}
  \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">1A-7 2A-8 3A-6</span>
@@ -265,7 +265,7 @@ $$
   &=x^2-(a+b)x+ab
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Los coeficientes de las ecuaciones cuadráticas \\( x^2-63x+k \\) y \\( x^2-(a+b)x+ab \\) deben coincidir, es decir, \\( a+b=63 \\). Dado que ambos números no pueden tener la misma paridad, al menos uno es par y primo, por lo que \\( a=2 \\) y \\( b=61 \\), o \\( a=61 \\) y \\( b=2 \\). Finalmente, \\( k=ab \\), y en ambos casos este valor es único.
 
@@ -293,7 +293,7 @@ $$
   8&=(a-4)(b-4)\\
 \end{align*}
 $$
-{: .math .grid}
+{: .math }
 
 Dado que \\( a-4 \\) y \\( b-4 \\) son enteros, tenemos varios casos
 
@@ -341,7 +341,7 @@ $$
 0&0&0
 \end{array}
 $$
-{:.math .grid}
+{:.math }
 
 Para alterar los números del tablero, solo se permite la siguiente operación: escoger un subtablero de 2\\( \times \\)2 formado por casillas adyacentes, y sumar 1 a todos los números del subtablero. ¿Cuál de los siguientes tableros se puede obtener?
 
@@ -391,7 +391,7 @@ $$\begin{array}{cc}
 4&9&5
 \end{array}
 $$
-{:.math .grid}
+{:.math }
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">1A-12</span>
 {: .no_toc}
@@ -418,12 +418,12 @@ Para este problema, colocaremos los números en cada caja en orden. El número 1
 Cinco números no negativos \\( a \\), \\( b \\), \\( c \\), \\( d \\) y \\( n \\) satisfacen las ecuaciones 
 
 $$ a+b+c+d=100 $$
-{:.math .grid}
+{:.math }
     
 y
 
 $$a+n=b-n=c\cdot n= \frac{d}{n}$$
-{:.math .grid}
+{:.math }
 
 ¿Cuántas tuplas \\( (a,b,c,d,n) \\) satisfacen las condiciones anteriores?
 
@@ -445,7 +445,7 @@ $$
   d&=cn^2
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Es decir:
 
@@ -455,7 +455,7 @@ $$
  c(n+1)^2&=10^2.
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Esto implica que \\( c \\) es un cuadrado perfecto que divide a \\( 10^2 \\), por lo que analizaremos los siguientes casos:
 
@@ -477,7 +477,7 @@ Esto implica que \\( c \\) es un cuadrado perfecto que divide a \\( 10^2 \\), po
    &=64
    \end{align*}
    $$
-   {:.math .grid}
+   {:.math }
    
    La tupla que satisface las condiciones en este caso es \\( (20,12,4,64,4) \\).
 
@@ -495,7 +495,7 @@ Esto implica que \\( c \\) es un cuadrado perfecto que divide a \\( 10^2 \\), po
    &=25
    \end{align*}
    $$
-   {:.math .grid}
+   {:.math }
    
    La tupla que satisface las condiciones en este caso es \\( (26,24,25,25,1) \\).
 
@@ -523,7 +523,7 @@ Si \\( n=p_1^{\alpha_1}\cdots p_k^{\alpha_k} \\), siendo \\( p_1,\cdots, p_k \\)
 $$
 d(n)=(\alpha_1+1)\cdots(\alpha_k+1)=75
 $$
-{:.math .grid}
+{:.math }
   
 Como 75 es impar, \\( \alpha_i \\) debe ser un número par para todo \\( i< k \\), es decir, \\( \alpha_i\ge 2\\). 
 
@@ -537,7 +537,7 @@ Podemos realizar los siguientes casos
      \implies d(n)&>75
    \end{align*}
    $$
-   {:.math .grid}
+   {:.math }
    
    por lo que no hay enteros \\( n \\) con al menos 4 divisores primos distintos tales que \\( d(n)=75\\).
 
@@ -564,7 +564,7 @@ $$
      &&&> 2^4 \cdot 3^4 \cdot 5^2
    \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 El menor valor de \\( n \\) en todos los casos es \\( 2^4\cdot 3^4 \cdot 5^2 \\), y la suma de los cuadrados perfectos será la siguiente:
 
@@ -574,7 +574,7 @@ $$
      &=49686
    \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 La cual puede interpretarse de la siguiente manera: Sólo pueden elegirse los exponentes pares menores o iguales a los exponentes de los factores primos respectivos de \\( n \\).
 
@@ -630,7 +630,7 @@ $$
 a-d&\equiv 0 \mod{11}
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Dado que \\( a \\) y \\( d \\) son cifras, y su diferencia es múltiplo de 11, la única posibilidad es \\( a=d \\).
 
@@ -643,7 +643,7 @@ $$
 \implies b&= c
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Es decir, \\( n=\overline{abba} \\). Como \\( b \\) debe ser par para que \\( \overline{abab} \\) sea múltiplo de 2, y \\( a\ne 0 \\) para que la primera cifra no sea nula, el número de posibles valores de \\( n \\) es 9\\( \times \\)5=45.
 
@@ -653,7 +653,7 @@ Es decir, \\( n=\overline{abba} \\). Como \\( b \\) debe ser par para que \\( \o
 ¿Cuál es el residuo que se obtiene cuando 
 
 $$ \binom{15}{0}^2+\binom{15}{1}^2+\dots+\binom{15}{15}^2 $$
-{:.math .grid}
+{:.math }
 
 es dividido por 100?
 
@@ -669,12 +669,12 @@ es dividido por 100?
 Se tiene que
 
 $$ \binom{15}{0}^2 + \binom{15}{1}^2 + \dots + \binom{15}{15}^2 = \binom{30}{15} $$
-{:.math .grid}
+{:.math }
 
 Desarrollando \\( \binom{30}{15}\\):
 
 $$ \binom{30}{15} = \frac{ 30\cdot 29\ldots\cdot 17 \cdot 16}{15 \cdot 14\cdot \ldots \cdot 9 \cdot 8 \cdot 7!}$$
-{:.math .grid}
+{:.math }
 
 En el denominador, todos los factores (excepto \\( 7! \\)) pueden ser cancelados con su doble en el numerador. Así, la expresión se reduciría sistemáticamente:
 
@@ -685,7 +685,7 @@ $$
   &=10 \cdot 2^3 \cdot 29 \cdot 9 \cdot 23 \cdot 19 \cdot 17
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Dado que al tener un factor 10, la última cifra será igual a 0, sólo basta con encontrar la cifra de las decenas, la cual será el residuo de todos los demás factores en módulo 10:
 
@@ -695,14 +695,14 @@ $$
   &\equiv 2 \mod{10}
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Concluimos que:
 
 $$ 
 \binom{30}{15} \equiv 20 \mod{100}
 $$
-{:.math .grid}
+{:.math }
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">3A-8</span>
 
@@ -711,7 +711,7 @@ Encuentra la suma de todos los valores positivos de \\( n \\) tales que:
 $$
 n^2 + 2 | n^6 + 206
 $$
-{:.math .grid}
+{:.math }
 
 >**a.** 28&#8195;
 >**b.** 29&#8195;
@@ -739,7 +739,7 @@ $$
 +\frac{1}{\sqrt[3]{2019^2}+\sqrt[3]{2019\left(2020\right)}+\sqrt[3]{2020^2}}
 \end{array}
 $$
-{:.math .grid}
+{:.math }
 
 >**a.** \\( \sqrt[3]{2020}-\sqrt[3]{2019} \\)&#8195;
 >**b.** \\( \sqrt[3]{2019}-1 \\)&#8195;
@@ -760,21 +760,21 @@ $$
 +\frac{\sqrt[3]{2019}-\sqrt[3]{2020}}{\left(\sqrt[3]{2019}-\sqrt[3]{2020}\right)\left(\sqrt[3]{2019^2}+\sqrt[3]{2019\left(2020\right)}+\sqrt[3]{2020^2}\right)}
 \end{array}
 $$
-{:.math .grid}
+{:.math }
 
 Que es igual a:
 
 $$
 \frac{\sqrt[3]{1}-\sqrt[3]{2}}{-1}+\frac{\sqrt[3]{2}-\sqrt[3]{3}}{-1}+\cdots+\frac{\sqrt[3]{2019}-\sqrt[3]{2020}}{-1}
 $$
-{:.math .grid}
+{:.math }
 
 Asignando el signo a cada término para no expresarlo con denominador, tenemos la siguiente suma
 
 $$
 -\sqrt[3]{1}+\sqrt[3]{2}-\sqrt[3]{2}+\sqrt[3]{3}-\cdots-\sqrt[3]{2019}+\sqrt[3]{2020}
 $$
-{:.math .grid}
+{:.math }
 
 Cuyo valor es claramente \\( \sqrt[3]{2020}-1 \\)
 
@@ -800,7 +800,7 @@ $$
   &=\angle PBD
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Además, \\(\angle EBC=\angle EPB=90^\circ \implies \\triangle EPB\cong\triangle EBC\\), por lo que las siguientes igualdades se cumplen (al final, se aplica el Teorema de Pitágoras en \\( \triangle BCD \\) y \\( \triangle EBF \\)):
 
@@ -812,7 +812,7 @@ $$
   &= \frac{EF}{BD}
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Como \\( \angle PEF=\angle PBD \\) y \\( \frac{EP}{PB}=\frac{EF}{BD} \\), por criterio **LAL** \\( \triangle EPF\cong \triangle PBD \\). 
 
@@ -828,14 +828,14 @@ $$
   &=90^\circ
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">2B-3 3B-1</span>
 
 Encuentra las soluciones reales de la ecuación:
 
 $$(x+2010)^4+(x+2030)^4=22408$$
-{:.math .grid}
+{:.math }
 
 #### Solución
 {:.no_toc}
@@ -850,7 +850,7 @@ y^4+600y^2+10^4&=11204\\
 \implies y^4+600y^2-1204&=0\\
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Si \\( a=y^2 \\), la ecuación cuadrática se resuelve:
 
@@ -864,7 +864,7 @@ a_1&=2\\
 a_2&=-1204\\
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 Dado que \\( y\in\mathbb{R}\implies y^2>0 \\), \\( a_1 \\) es la única solución válida. Luego \\( y=\pm 2 \\) y los únicos valores reales de \\( x \\) son
 
@@ -876,7 +876,7 @@ x&=\left\{\begin{array}{l}
 \end{array}\right.
 \end{align*}
 $$
-{:.math .grid}
+{:.math }
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">2B-2 3B-2</span>
 
@@ -896,7 +896,7 @@ Supongamos que \\( (ab + 1)^2 + (a − b)^2  = c^2 \\)para algún entero c. Ento
 $$
 c^2 = a^2b^2 + a^2 + b^2 + 1 = (a^2 + 1)(b^2 + 1).
 $$
-{:.math .grid}
+{:.math }
 
 Demostraremos que \\( a^2 + 1 \\) y \\( b^2 + 1 \\) son primos relativos. Supongamos lo contrario y
 sea \\( p \\) un número primo tal que \\( p | a^2 + 1\\) y \\( p | b^2 + 1 \\). Entonces \\( p | a^2 − b^2\\) y de aquí, \\( p | a − b \\) o \\( p | a + b \\).
@@ -915,7 +915,7 @@ Considera todas las ternas \\( (x,y,p) \\) de enteros positivos donde \\( p \\) 
 $$
 4x^2+8y^2+(2x-3y)p-12xy=0
 $$
-{:.math .grid}
+{:.math }
 
 Demuestra que \\( 4y+1 \\) es un cuadrado perfecto para cada terna \\( (x,y,p) \\).
 
@@ -927,21 +927,21 @@ Reescribimos la ecuación cuadrática respecto a \\( x \\) de la siguiente maner
 $$
 4x^2+(2p-12y)x+8y^2-3yp=0
 $$
-{:.math .grid}
+{:.math }
 
 El discriminante de dicha ecuación es
 
 $$
 (2p-12y)^2-4(4)(8y^2-3yp)=16y^2+4p^2
 $$
-{:.math .grid}
+{:.math }
 
 Si \\( x \\) es un entero positivo, \\( 16y^2+4p^2\\) es un cuadrado perfecto par. Es decir:
 
 $$
 k^2=16y^2+4p^2 \implies (k+4y)(k-4y)=4p^2
 $$
-{:.math .grid}
+{:.math }
 
 Para algún entero \\( k \\) divisible por 2.
 

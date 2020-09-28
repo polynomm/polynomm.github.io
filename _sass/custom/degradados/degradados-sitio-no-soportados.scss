@@ -76,6 +76,10 @@
       alter-sitio-texto-color
     ) !important;
     color: map-get($colores-deg-sitio, alter-sitio-texto-color) !important;
+    border-color: map-get(
+      $colores-deg-sitio,
+      alter-sitio-texto-color
+    ) !important;
   }
   .site-button:hover {
     svg {
@@ -117,13 +121,6 @@
     &::selection {
       -webkit-text-fill-color: #fff;
     }
-  }
-  .deg-sitio-texto > mjx-container {
-    @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
-  }
-
-  .deg-sitio.deg-sitio-texto > mjx-container {
-    @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
   }
 
   /* Let's get this party started */
@@ -170,5 +167,9 @@
   //Barra lateral
   .header-open-landscape {
     background-color: map-get($colores-deg-sitio, alter-sitio);
+  }
+
+  .deg-sitio.math {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
   }
 }

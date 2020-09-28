@@ -13,9 +13,6 @@ p > mjx-container {
 
 //Aquellos códigos que no son degradados para ambos
 //Display mathjax
-.grid {
-  display: grid;
-}
 
 .inline-flex {
   display: inline-flex;
@@ -31,4 +28,26 @@ p > mjx-container {
 
 .math {
   overflow-x: scroll;
+}
+
+[class*="deg-"].math {
+  display: table;
+  margin: auto;
+  .MJX-TEX {
+    margin: -1px !important;
+  }
+}
+
+.math-display {
+  margin: 0;
+  .MJX-TEX {
+    padding: 1em 0 !important;
+  }
+  mjx-container {
+    margin: 0 !important;
+  }
+}
+
+p [class*="deg-"].math {
+  display: inline-table;
 }

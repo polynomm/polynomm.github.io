@@ -102,7 +102,7 @@ La secuencia de Fibonacci está definida por \\(F_1=F_2=1 \\) y \\( F_{n+2}=F_{n
 ¿Cuál es el residuo que se obtiene al dividir
 
 $$F_{2020}+F_{2019}+...+F_2+F_1$$
-{:.grid}
+{:.math}
 
 entre 5?
 
@@ -174,7 +174,7 @@ $$
 0&0&0
 \end{array}
 $$
-{:.grid}
+{:.math}
 
 Para alterar los números del tablero, solo se permite la siguiente operación: escoger un subtablero de 2\\( \times \\)2 formado por casillas adyacentes, y sumar 1 a todos los números del subtablero. ¿Cuál de los siguientes tableros se puede obtener?
 
@@ -288,7 +288,7 @@ La secuencia de Fibonacci está definida por \\(F_1=F_2=1 \\) y \\( F_{n+2}=F_{n
 ¿Cuál es el residuo que se obtiene al dividir
 
 $$F_{2020}+F_{2019}+...+F_2+F_1$$
-{:.grid}
+{:.math}
 
 entre 5?
 
@@ -356,7 +356,7 @@ $$
 0&0&0
 \end{array}
 $$
-{:.grid}
+{:.math}
 
 Para alterar los números del tablero, solo se permite la siguiente operación: escoger un subtablero de 2\\( \times \\)2 formado por casillas adyacentes, y sumar 1 a todos los números del subtablero. ¿Cuál de los siguientes tableros se puede obtener?
 
@@ -505,7 +505,7 @@ no es un cuadrado perfecto.
 Encuentra las soluciones reales de la ecuación:
 
 $$(x+2010)^4+(x+2030)^4=22408$$
-{:.grid}
+{:.math}
 
 <div></div>
 {:.salto .no-mostrar}
@@ -565,7 +565,7 @@ $$
 0&0&0
 \end{array}
 $$
-{:.grid}
+{:.math}
 
 Para alterar los números del tablero, solo se permite la siguiente operación: escoger un subtablero de 2\\( \times \\)2 formado por casillas adyacentes, y sumar 1 a todos los números del subtablero. ¿Cuál de los siguientes tableros se puede obtener?
 
@@ -736,7 +736,7 @@ Problemas Nivel 3 Parte B
 Encuentra las soluciones reales de la ecuación:
 
 $$(x+2010)^4+(x+2030)^4=22408$$
-{:.grid}
+{:.math}
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">2</span>
 

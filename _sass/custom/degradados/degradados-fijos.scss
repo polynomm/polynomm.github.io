@@ -175,11 +175,8 @@ $colores-deg-numeros: (
   .deg-especial-texto {
     @include alter-texto(map-get($colores-deg-especial, alter-especial));
   }
-  .deg-especial-texto > mjx-container {
-    @include alter-texto(map-get($colores-deg-especial, alter-especial));
-  }
 
-  .deg-especial.deg-especial-texto > mjx-container {
+  .deg-especial.math {
     @include alter-texto(map-get($colores-deg-especial, alter-especial));
   }
   .deg-algebra {
@@ -192,11 +189,7 @@ $colores-deg-numeros: (
   .deg-algebra-texto {
     @include alter-texto(map-get($colores-deg-algebra, alter-algebra));
   }
-  .deg-algebra-texto > mjx-container {
-    @include alter-texto(map-get($colores-deg-algebra, alter-algebra));
-  }
-
-  .deg-algebra.deg-algebra-texto > mjx-container {
+  .deg-algebra.math {
     @include alter-texto(map-get($colores-deg-algebra, alter-algebra));
   }
   .deg-casillas {
@@ -209,11 +202,8 @@ $colores-deg-numeros: (
   .deg-casillas-texto {
     @include alter-texto(map-get($colores-deg-casillas, alter-casillas));
   }
-  .deg-casillas-texto > mjx-container {
-    @include alter-texto(map-get($colores-deg-casillas, alter-casillas));
-  }
 
-  .deg-casillas.deg-casillas-texto > mjx-container {
+  .deg-casillas.math {
     @include alter-texto(map-get($colores-deg-casillas, alter-casillas));
   }
   .deg-combinatoria {
@@ -228,13 +218,8 @@ $colores-deg-numeros: (
       map-get($colores-deg-combinatoria, alter-combinatoria)
     );
   }
-  .deg-combinatoria-texto > mjx-container {
-    @include alter-texto(
-      map-get($colores-deg-combinatoria, alter-combinatoria)
-    );
-  }
 
-  .deg-combinatoria.deg-combinatoria-texto > mjx-container {
+  .deg-combinatoria.math {
     @include alter-texto(
       map-get($colores-deg-combinatoria, alter-combinatoria)
     );
@@ -251,13 +236,8 @@ $colores-deg-numeros: (
       map-get($colores-deg-desigualdades, alter-desigualdades)
     );
   }
-  .deg-desigualdades-texto > mjx-container {
-    @include alter-texto(
-      map-get($colores-deg-desigualdades, alter-desigualdades)
-    );
-  }
 
-  .deg-desigualdades.deg-desigualdades-texto > mjx-container {
+  .deg-desigualdades.math {
     @include alter-texto(
       map-get($colores-deg-desigualdades, alter-desigualdades)
     );
@@ -272,11 +252,8 @@ $colores-deg-numeros: (
   .deg-geometria-texto {
     @include alter-texto(map-get($colores-deg-geometria, alter-geometria));
   }
-  .deg-geometria-texto > mjx-container {
-    @include alter-texto(map-get($colores-deg-geometria, alter-geometria));
-  }
 
-  .deg-geometria.deg-geometria-texto > mjx-container {
+  .deg-geometria.math {
     @include alter-texto(map-get($colores-deg-geometria, alter-geometria));
   }
   .deg-numeros {
@@ -289,11 +266,8 @@ $colores-deg-numeros: (
   .deg-numeros-texto {
     @include alter-texto(map-get($colores-deg-numeros, alter-numeros));
   }
-  .deg-numeros-texto > mjx-container {
-    @include alter-texto(map-get($colores-deg-numeros, alter-numeros));
-  }
 
-  .deg-numeros.deg-numeros-texto > mjx-container {
+  .deg-numeros.math {
     @include alter-texto(map-get($colores-deg-numeros, alter-numeros));
   }
 }

@@ -13,7 +13,11 @@
         processEscapes: false
       }
     });
-    </script>
+    window.MathJax = {
+      loader: {load: ['[tex]/cancel']},
+      tex: {packages: {'[+]': ['cancel']}}
+    };
+</script>
 <!-- Fuentes -->
 <!--Ubuntu Mono-->
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -27,5 +31,6 @@
 <!--Geogebra-->
 <script src="https://www.geogebra.org/apps/deployggb.js"></script>
 <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | absolute_url }}">
-<!--Font Awesome-->
+<!--Font Awesome
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+-->
