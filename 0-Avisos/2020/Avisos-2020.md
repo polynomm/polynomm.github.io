@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Avisos 2020
-nav_order: 8
+nav_order: 2020
 description: "Contenido importante para el sitio."
 last_modified_date: 2020-08-17T09:00:00+0000
 parent: Avisos
