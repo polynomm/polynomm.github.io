@@ -38,7 +38,7 @@ Encuentra todos los pares de enteros positivos \\((a,b)\\) tales que \\(a^2+b\\)
 {: .no_toc}
 
 <!-- Problema propio https://davidaltizio.web.illinois.edu/More%20Diophantine%20Equations%20Overview.pdf -->
-\\(181^2\\) puede escribirse como la diferencia de los cubos de dos enteros positivos. Encuentra la suma de dichos enteros.
+\\(181^2\\) puede escribirse como la diferencia de los cubos de dos enteros positivos consecutivos. Encuentra la suma de dichos enteros.
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">3</span>
 {: .no_toc}
 
@@ -78,7 +78,7 @@ x^3 - 3x = 4 - y \\
 {: .no_toc}
 
 <!-- Math Message Boards FAQ & Community Help | AoPS. (2020, 30 mayo). AoPS. https://artofproblemsolving.com/community/c4t281f4h2163356_system_of_equations -->
-Resuelva el siguiente sistema de ecuaciones
+Resuelva el siguiente sistema de ecuaciones en los números reales
 
 $$
 \begin{cases}
