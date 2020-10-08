@@ -23,7 +23,7 @@ Cada problema vale **7** puntos. Justifica tu solución.
 
 ### Problema&nbsp;<span class="deg-sitio deg-sitio-texto">1</span>
 
-Sea \\( ABCD \\) un cuadrilátero tal que \\(\angle ABC=\angle ACD=90^\circ\\), \\(AC=20\\) y \\(CD=30\\). Las diagonales \\(AC\\) y \\(BD\\) se cortan en \\(E\\). Si \\(AE=5\\), encuuentra el área de \\(ABCD\\).
+Sea \\( ABCD \\) un cuadrilátero tal que \\(\angle ABC=\angle ACD=90^\circ\\), \\(AC=20\\) y \\(CD=30\\). Las diagonales \\(AC\\) y \\(BD\\) se cortan en \\(E\\). Si \\(AE=5\\), encuentra el área de \\(ABCD\\).
 
 ### Problema&nbsp;<span class="deg-sitio deg-sitio-texto">2</span>
 
