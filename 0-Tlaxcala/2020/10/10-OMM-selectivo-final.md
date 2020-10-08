@@ -8,9 +8,9 @@ parent: Tlaxcala 2020
 grand_parent: Tlaxcala
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degRojo.css' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degVerde.css' | absolute_url }}">
 <script>
-    jtd.setTheme('degRojo');
+    jtd.setTheme('degVerde');
 </script>
 
 # Olimpiada Mexicana de Matemáticas&nbsp;<span class="deg-sitio deg-sitio-texto">2020</span> Selectivo Final
