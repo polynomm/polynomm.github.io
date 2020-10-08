@@ -19,6 +19,8 @@ grand_parent: Tlaxcala
 Examen para definir a la Delegación Tlaxcala <span class="deg-sitio deg-sitio-texto">2020</span>.
 {:.fs-6 .fw-300}
 
+Cada problema vale **7** puntos. Justifica tu solución.
+
 ### Problema&nbsp;<span class="deg-sitio deg-sitio-texto">1</span>
 
 Sea \\( ABCD \\) un cuadrilátero tal que \\(\angle ABC=\angle ACD=90^\circ\\), \\(AC=20\\) y \\(CD=30\\). Las diagonales \\(AC\\) y \\(BD\\) se cortan en \\(E\\). Si \\(AE=5\\), encuuentra el área de \\(ABCD\\).
