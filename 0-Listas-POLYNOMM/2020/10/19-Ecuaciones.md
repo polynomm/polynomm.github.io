@@ -52,7 +52,7 @@ Vemos que \\(a+b+1>0\\), por lo que \\(a-b>0\\) y ambos factores son los divisor
 >\\(a+b-1=12\\), \\(a-b=3\\):
     >Nuevamente, al resolver el sistema de ecuaciones, \\(a=8\\) y \\(b=5\\).
 >\\(a+b-1=9\\), \\(a-b=4\\):
-    >En este último caso, \(a=7\\) y \\(b=3\\).
+    >En este último caso, \\(a=7\\) y \\(b=3\\).
 
 Por lo que todos los pares de enteros \\((a,b)\\) que satisfacen las condiciones son \\((19,18)\\), \\((8,5)\\) y \\((7,3)\\).
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">2</span>
