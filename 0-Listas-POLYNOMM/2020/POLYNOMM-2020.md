@@ -13,7 +13,7 @@ has_children: true
     jtd.setTheme('degVerde');
 </script>
 
-# POLYN<span class="deg-sitio deg-sitio-texto">0MM 2020</span><i class="jpa-anim-rel-nerd_face jpa-2em"></i>
+# POLYN<span class="deg-sitio deg-sitio-texto">OMM 2020</span><i class="jpa-anim-rel-nerd_face jpa-2em"></i>
 {:.fs-9}
 
 ¿Qué hizo POLYN<span class="deg-sitio deg-sitio-texto">OMM</span> en 2020? Primero, existir, luego...
