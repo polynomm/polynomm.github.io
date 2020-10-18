@@ -309,7 +309,7 @@ $$\begin{cases}
 #### Solución
 {: .no_toc}
 
-Primero, dado que 2010 es un entero positivo par, \\( a,b,c,d \ge 0 \\). Dado que el sistema es equivalente en cualquier permutación de los 4 números,***sin pérdida de generalidad*** podemos suponer que \\( a\ge b\ge c\ge d\ge 0 \\). En este caso:
+Primero, dado que 2010 es un entero positivo par, \\( a,b,c,d \ge 0 \\). Dado que el sistema es equivalente en cualquier permutación de los 4 números, ***sin pérdida de generalidad*** podemos suponer que \\( a\ge b\ge c\ge d\ge 0 \\). En este caso:
 
 $$\begin{eqnarray*}
 (b+c+d)^{2010}\ge (a+c+d)^{2010}&\ge&(a+b+d)^{2010}\ge(a+b+c)^{2010}\\
