@@ -47,11 +47,11 @@ $$\begin{align*}
 
 Vemos que \\(a+b+1>0\\), por lo que \\(a-b>0\\) y ambos factores son los divisores positivos de 36. Notamos que \\(a+b+1>a-b\\), y ambos tienen distinta paridad (ya que su diferencia es \\(2b+1\\), un número impar), por lo que analizaremos los siguientes casos:
 
->\\(a+b-1=36\\), \\(a-b=1\\):
+1. \\(a+b-1=36\\), \\(a-b=1\\):
     >Resolviendo el sistema de ecuaciones, se obtiene que \\(a=19\\) y \\(b=18\\).
->\\(a+b-1=12\\), \\(a-b=3\\):
+2. \\(a+b-1=12\\), \\(a-b=3\\):
     >Nuevamente, al resolver el sistema de ecuaciones, \\(a=8\\) y \\(b=5\\).
->\\(a+b-1=9\\), \\(a-b=4\\):
+3. \\(a+b-1=9\\), \\(a-b=4\\):
     >En este último caso, \\(a=7\\) y \\(b=3\\).
 
 Por lo que todos los pares de enteros \\((a,b)\\) que satisfacen las condiciones son \\((19,18)\\), \\((8,5)\\) y \\((7,3)\\).
