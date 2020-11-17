@@ -16,7 +16,7 @@ parent: POLYNOMM 2020
 # Tres problemas de <span class="deg-sitio deg-sitio-texto">Geo</span><i class="jpa-anim-rel-jack_o_lantern jpa-2em"></i>
 {:.fs-9 .no-toc}
 
-Una pequeña lista de problemas de Geometría creados por escritores de PolynOMM.
+Una pequeña lista de problemas de Geometría creados por escritores de POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>.
 {:.fs-6 .fw-300}
 
 16 de noviembre de 2020.
