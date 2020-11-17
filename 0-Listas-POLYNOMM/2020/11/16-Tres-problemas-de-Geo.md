@@ -35,6 +35,9 @@ Encuentre \\(\frac{A_1}{A_2}\\).
 
 <div class="geo-100"><div id="Problema1"></div></div>
 
+<div></div>
+{:.salto .no-mostrar}
+
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">2</span>
 {: .no_toc}
 
@@ -67,6 +70,9 @@ Encuentre, en todos los casos:
 
 Nota: *El valor de \\(\frac{A_iA_{i+1}}{A_{i+1}B_i}\\), que puede ser \\(\frac{1}{2}\\) o \\(2\\), no es necesariamente igual al valor de \\(\frac{A_jA_{j+1}}{A_{j+1}B_j}\\) para enteros no negativos distintos \\(i,j\\) .*
 
+<div></div>
+{:.salto .no-mostrar}
+
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">3</span>
 {: .no_toc}
 
@@ -96,7 +102,7 @@ Encuentra la medida del ángulo \\(\angle PQR\\) en cada caso.
                         "material_id":"dgx9ysex",
                         "appName":"geometry",
                         "width":800,
-                        "height":450,
+                        "height":300,
                         "autoHeight":true,
                         "scaleContainerClass":"geo-100",
                         "allowUpscale":true
