@@ -13,7 +13,7 @@ parent: POLYNOMM 2020
     jtd.setTheme('degNaranja');
 </script>
 
-# Tres problemas de <span class="deg-sitio deg-sitio-texto">Geo</span><i class="jpa-anim-rel-fire jpa-2em"></i>
+# Tres problemas de <span class="deg-sitio deg-sitio-texto">Geo</span><i class="jpa-anim-rel-jack_o_lantern jpa-2em"></i>
 {:.fs-9 .no-toc}
 
 Una pequeña lista de problemas de Geometría creados por escritores de PolynOMM.
