@@ -72,8 +72,8 @@ $$181^2=(n+1)^3-n^3=3n^2+3n+1$$
 Esto significa que:
 
 $$\begin{align*}
-n(n+1)&=\dfrac{181^2-1}{2}\\[0.5em]
-&=\dfrac{180\cdot 182}{2}\\[0.5em]
+n(n+1)&=\dfrac{181^2-1}{3}\\[0.5em]
+&=\dfrac{180\cdot 182}{3}\\[0.5em]
 &=(2^2\cdot 3\cdot 5)(2\cdot 7\cdot 13)\\[0.5em]
 &=(2^3\cdot 13)\cdot(3\cdot 5\cdot 7)\\[0.5em]
 &=104\cdot 105    
