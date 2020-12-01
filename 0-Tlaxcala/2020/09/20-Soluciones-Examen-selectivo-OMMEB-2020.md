@@ -46,7 +46,7 @@ Sean \\( p \\) y \\( q \\) números primos distintos entre si. ¿Cuántos diviso
 #### Solución
 {: .no_toc}
 
-Dado que los números que dividen a \\( p^2\cdot q^2 \\) sólo pueden tener como factores primos a \\( p \\) y \\( q \\), cun un exponente menor o igual a 2, podemos escribir fácilmente todas las soluciones:
+Dado que los números que dividen a \\( p^2\cdot q^2 \\) sólo pueden tener como factores primos a \\( p \\) y \\( q \\), con un exponente menor o igual a 2, podemos escribir fácilmente todas las soluciones:
 
 $$
 \begin{array}{ccc}
@@ -69,7 +69,7 @@ Donde para cada valor de \\( i \\), \\( \alpha_i \\) es un número entero no neg
 El número de divisores de \\( n \\), es decir, \\( d(n) \\), satisface la siguiente igualdad:
 
 $$
-d(n)=(a_1+1)(a_2+1)\cdots(a_k+1)
+d(n)=(\alpha_1+1)(\alpha_2+1)\cdots(\alpha_k+1)
 $$
 
 
