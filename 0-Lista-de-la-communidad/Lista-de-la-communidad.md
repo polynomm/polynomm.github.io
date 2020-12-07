@@ -24,7 +24,7 @@ Todos pueden enviar problemas al correo electrónico de POLYN<span class="deg-si
 
 El problema será identificado por la fecha de publicación y un número, en el siguiente formato:
 
-### Problema 20-09-2020 1
+### Problema 2020-09-01 1
 
 Enunciado...
 
