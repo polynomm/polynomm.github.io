@@ -2,7 +2,7 @@
 layout: default
 title: Tres problemas de Geo
 nav_order: 2020-11-16
-description: "Tres problemas PolynOMM de Geometría"
+description: "Tres problemas POLYNOMM de Geometría"
 last_modified_date: 2020-09-28T13:00:00+0000
 grand_parent: Listas POLYNOMM
 parent: POLYNOMM 2020
@@ -33,7 +33,7 @@ Al interior de cada lado del triángulo \\(ABC\\) se trazan dos puntos que divid
 
 Encuentre \\(\frac{A_1}{A_2}\\).
 
-<div class="geo-100"><div id="Problema1"></div></div>
+<div class="geo-app"><div id="Problema1"></div></div>
 
 <div></div>
 {:.salto .no-mostrar}
@@ -66,7 +66,7 @@ Encuentre, en todos los casos:
 * el área de \\(A_nB_nC_n\\) para todo entero no negativo \\(n\\).
 * todos los enteros no negativos \\(n\\) para los cuales \\(A_nB_nC_n\\) tiene lados paralelos a los lados de \\(A_0B_0C_0\\).
 
-<div class="geo-100"><div id="Problema2"></div></div>
+<div class="geo-app"><div id="Problema2"></div></div>
 
 Nota: *El valor de \\(\frac{A_iA_{i+1}}{A_{i+1}B_i}\\), que puede ser \\(\frac{1}{2}\\) o \\(2\\), no es necesariamente igual al valor de \\(\frac{A_jA_{j+1}}{A_{j+1}B_j}\\) para enteros no negativos distintos \\(i,j\\) .*
 
@@ -104,10 +104,10 @@ Encuentra la medida del ángulo \\(\angle PQR\\) en cada caso.
                         "width":800,
                         "height":300,
                         "autoHeight":true,
-                        "scaleContainerClass":"geo-100",
+                        "scaleContainerClass":"geo-app",
                         "allowUpscale":true
                         };
-                var appletProblema1 = new GGBApplet(parametersProblema1, '5.0', 'Problema1');
+                var appletProblema1 = new GGBApplet(parametersProblema1, '6.0', 'Problema1');
                 var parametersProblema2 = {
                         "id":"Problema2",
                         "material_id":"qgg493sv",
@@ -115,10 +115,10 @@ Encuentra la medida del ángulo \\(\angle PQR\\) en cada caso.
                         "width":800,
                         "height":450,
                         "autoHeight":true,
-                        "scaleContainerClass":"geo-100",
+                        "scaleContainerClass":"geo-app",
                         "allowUpscale":true
                         };
-                var appletProblema2 = new GGBApplet(parametersProblema2, '5.0', 'Problema2');
+                var appletProblema2 = new GGBApplet(parametersProblema2, '6.0', 'Problema2');
                 window.onload = function() { 
                   appletProblema1.inject('Problema1');
                   appletProblema2.inject('Problema2');

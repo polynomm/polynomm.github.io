@@ -73,7 +73,7 @@ Un tonel esta lleno \\( \frac{1}{4} \\) de lo que no esta lleno ¿Qué fracción
 
 ¿Cuántos rectángulos hay en esta figura?
 
-<div class="geo-100"><div id="ProblemaRectangulos1"></div></div>
+<div class="geo-app"><div id="ProblemaRectangulos1"></div></div>
 
 >**a.** 8&#8195;
 >**b.** 9&#8195;
@@ -86,7 +86,7 @@ Un tonel esta lleno \\( \frac{1}{4} \\) de lo que no esta lleno ¿Qué fracción
 
 Un ocho son dos círculos del mismo tamaño y tangentes entre sí. ¿Cuántos ochos hay en este dibujo?
 
-<div class="geo-100"><div id="ProblemaOchos1"></div></div>
+<div class="geo-app"><div id="ProblemaOchos1"></div></div>
 
 >**a.** 25&#8195;
 >**b.** 28&#8195;
@@ -336,7 +336,7 @@ Un piso rectangular es cubierto totalmente con mosaicos cuadrados de igual tama�
 
 Un ocho son dos círculos del mismo tamaño y tangentes entre sí. ¿Cuántos ochos hay en este dibujo?
 
-<div class="geo-100"><div id="ProblemaOchos2"></div></div>
+<div class="geo-app"><div id="ProblemaOchos2"></div></div>
 
 >**a.** 25&#8195;
 >**b.** 28&#8195;
@@ -545,7 +545,7 @@ Un piso rectangular es cubierto totalmente con mosaicos cuadrados de igual tama�
 
 Un ocho son dos círculos del mismo tamaño y tangentes entre sí. ¿Cuántos ochos hay en este dibujo?
 
-<div class="geo-100"><div id="ProblemaOchos3"></div></div>
+<div class="geo-app"><div id="ProblemaOchos3"></div></div>
 
 >**a.** 25&#8195;
 >**b.** 28&#8195;
@@ -770,7 +770,7 @@ Demuestra que \\( 4y+1 \\) es un cuadrado perfecto para cada terna \\( (x,y,p) \
                         "width":800,
                         "height":450,
                         "autoHeight":true,
-                        "scaleContainerClass":"geo-100",
+                        "scaleContainerClass":"geo-app",
                         "allowUpscale":true
                         };
                         var parametersOchos = {
@@ -780,11 +780,11 @@ Demuestra que \\( 4y+1 \\) es un cuadrado perfecto para cada terna \\( (x,y,p) \
                         "width":800,
                         "height":450,
                         "autoHeight":true,
-                        "scaleContainerClass":"geo-100",
+                        "scaleContainerClass":"geo-app",
                         "allowUpscale":true
                         };
-                var appletRectangulos = new GGBApplet(parametersRectangulos, '5.0', 'ProblemaRectangulos');
-                var appletOchos = new GGBApplet(parametersOchos, '5.0', 'ProblemaOchos');
+                var appletRectangulos = new GGBApplet(parametersRectangulos, '6.0', 'ProblemaRectangulos');
+                var appletOchos = new GGBApplet(parametersOchos, '6.0', 'ProblemaOchos');
                 window.onload = function() { 
                   appletRectangulos.inject('ProblemaRectangulos1');
                 appletOchos.inject('ProblemaOchos1');

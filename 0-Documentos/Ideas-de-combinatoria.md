@@ -153,7 +153,7 @@ Demuestra que \$\$ 0\binom{n}{0}+1\binom{n}{1}+\cdots+n\binom{n}{n}=2^{n-1}\cdot
                         "scaleContainerClass":"geo-75",
                         "allowUpscale":true
                         };
-                var applet = new GGBApplet(parameters, '5.0', 'applet_container');
+                var applet = new GGBApplet(parameters, '6.0', 'applet_container');
                /*  when used with Math Apps Bundle, uncomment this:*/
                 /*applet.setHTML5Codebase('GeoGebra/HTML5/5.0/web3d/');*/
 
