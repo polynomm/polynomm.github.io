@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 22 de Agosto<br>Examen Selectivo
+title: 22 de Agosto | Examen Selectivo
 nav_order: 2020-08-22
 description: "Aviso 22 de Agosto"
 last_modified_date: 2020-08-22T18:30:00+0000
