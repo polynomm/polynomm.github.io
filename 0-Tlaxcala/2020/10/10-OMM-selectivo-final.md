@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2020 OMM Selectivo Final
+title: OMM 2020 Selectivo Final
 nav_order: 2020-10-10
 description: "Selectivo Final OMM 2020"
 last_modified_date: 2020-10-10T10:00:00+0000
