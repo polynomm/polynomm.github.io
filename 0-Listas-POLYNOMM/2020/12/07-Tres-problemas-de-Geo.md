@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Soluciones Tres problemas de Geo
-nav_order: 2020-11-16
+nav_order: 2020-12-07
 description: "Soluciones de la lista Tres problemas POLYNOMM de Geometría"
-last_modified_date: 2020-09-29T13:00:00+0000
+last_modified_date: 2020-12-07T18:04:00+0000
 grand_parent: Listas POLYNOMM
 parent: POLYNOMM 2020
 ---
@@ -19,7 +19,7 @@ parent: POLYNOMM 2020
 Esperamos que les hayan gustado los problemas...
 {:.fs-6 .fw-300}
 
-16 de noviembre de 2020.
+7 de diciembre de 2020.
 
 Geometría
 {:.label .deg-geometria .deg-geometria-fondo}
