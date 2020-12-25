@@ -2,6 +2,7 @@
 layout: default
 title: Temas Selectos
 nav_order: 3
+nav_exclude: true
 description: ""
 last_modified_date: 2020-08-17T09:00:00+0000
 has_children: true

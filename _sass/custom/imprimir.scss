@@ -1,4 +1,8 @@
 @media screen {
+  * {
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
   .no-mostrar {
     display: none;
   }
@@ -63,8 +67,9 @@
     font-weight: 600;
     color: #000;
   }
-  body {
-    font-weight: 400;
+  body,
+  .main-content {
+    font-weight: 400 !important;
     color: $grey-dk-250;
     -webkit-color-adjust: exact;
     color-adjust: exact;
@@ -75,5 +80,9 @@
   }
   .salto {
     page-break-after: always;
+  }
+
+  p {
+    line-height: normal;
   }
 }

@@ -2,6 +2,7 @@
 layout: default
 title: Entrenamientos Olímpicos
 nav_order: 2
+nav_exclude: true
 description: "Página de entrenamientos"
 last_modified_date: 2020-08-17T09:00:00+0000
 has_children: true

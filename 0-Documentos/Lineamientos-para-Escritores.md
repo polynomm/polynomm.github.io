@@ -30,7 +30,7 @@ Son aquellas personas que han sido seleccionadas para publicar contenido en el s
 
 ## ¿Puedo ser Escritor?
 
-Sólo con invitación. Esperamos poder realizar dinámicas para que todos tengan la oportunidad de participar en el futuro.
+Sí, contáctanos en nuestra página de Facebook.
 
 <div class="salto"> </div>
 
@@ -39,15 +39,6 @@ Sólo con invitación. Esperamos poder realizar dinámicas para que todos tengan
 ¡Bienvenido! Podrás publicar contenido en POLYN<span class="deg-sitio deg-sitio-texto">OMM</span> bajo los siguientes lineamientos.
 {:.fs-6 .fw-300}
 
-## Discreción y nonimato<i class="jpa-anim-rel-shushing_face jpa-2em"></i>
-
-Dado que lo importante es que el contenido sea para todos, no daremos reconocimiento explícito a a ningún escritor.
-
-En su lugar, los Escritores podrán ser reconocidos a partir de una secuencia de emojis personalizada (si su colaboración con POLYN<span class="deg-sitio deg-sitio-texto">OMM</span> es significativa), la cual no deben compartir. Además, los Escritores así reconocidos tienen prohibido promocionarse a sí mísmos en cualquier medio (esto incluye prácticas como compartir mayoritariamente los enlaces de los artículos que redactaron).
-
-En caso de no cumplir la discreción y el anonimato (lo cual puede ser notificado por cualquier usuario del sitio), se advertirá a los Escritores involucrados, antes de sustituir la secuencia de emojis personalizada por un texto genérico.
-
-Por tanto, recomendamos evitar compartir un link que sea diferente a POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>.github.io
 
 ## Calidad<i class="jpa-anim-rel-star_struck jpa-2em"></i>
 
@@ -70,7 +61,7 @@ Por ejemplo, si se trata de una lista de problemas para entrenamiento, es recome
 ### Lenguaje<i class="jpa-anim-rel-winking_face_with_tongue jpa-2em"></i>
 {:.no_toc}
 
-Es importante que la confusión no sea generada por tu manera de explicar las cosas.
+Trata de explicar claramente las cosas.
 
 Puedes escribir con tu propio estilo, siempre y cuando consideremos que tu lenguaje es aceptable y hace más amena la lectura. Dado que este es un sitio de internet, puedes usar frases de memes y emojis con moderación<i class="jpa-anim-rel-zany_face jpa-2em"></i>
 

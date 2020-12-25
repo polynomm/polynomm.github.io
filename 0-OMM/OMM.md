@@ -15,5 +15,5 @@ has_children: true
 # Olimpiada Mexicana de Matemáticas&nbsp;<span class="deg-sitio deg-sitio-texto">OMM</span><i class="jpa-anim-rel-nerd_face jpa-2em"></i>
 {:.fs-9}
 
-Una sección dedicada a la olimpiada matemática más importante de México.
+Una sección dedicada a los concursos de la OMM.
 {:.fs-6 .fw-300}

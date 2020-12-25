@@ -181,7 +181,7 @@ $$
 \left(A_nB_nC_n\right)&=(A_0B_0C_0)\displaystyle\prod_{i=0}^{n-1}\frac{\left(A_{n-i}B_{n-i}C_{n-i}\right)}{\left(A_{n-i-1}B_{n-i-1}C_{n-i-1}\right)}\\[0.5cm]
 &=(A_0B_0C_0)\underbrace{\frac{\left(A_{n}B_{n}C_{n}\right)}{\left(A_{n-1}B_{n-1}C_{n-1}\right)}
 \frac{\left(A_{n-1}B_{n-1}C_{n-1}\right)}{\left(A_{n-2}B_{n-2}C_{n-2}\right)}
-\cdots \frac{\left(A_{1}B_{1}C_{1}\right)}{\left(A_{0}B_{0}C_{0}\right)}}_{\text{n factores}}
+\cdots \frac{\left(A_{1}B_{1}C_{1}\right)}{\left(A_{0}B_{0}C_{0}\right)}}_{n\text{ factores}}
 \\[0.5cm]
 &=\frac{\sqrt{3}}{4}\left(\frac{4}{9}\right)^n
 \end{align*}

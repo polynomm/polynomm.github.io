@@ -2,6 +2,7 @@
 layout: default
 title: Lista de la communidad
 nav_order: 6
+nav_exclude: true
 description: "Lista colaborativa"
 last_modified_date: 2020-08-17T09:00:00+0000
 has_children: true
@@ -13,8 +14,6 @@ has_children: true
 
 Un trabajo en equipo, una sola meta: resolver problemas...
 {:.fs-6 .fw-300}
-
-1. TOC
 
 ## ¿Cómo funciona?
 
