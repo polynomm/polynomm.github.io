@@ -30,6 +30,24 @@ ul.gwt-MenuBar {
 }
 
 .geo-app {
-  margin: auto;
+  position: relative;
   width: 100%;
+  contain: content;
+  height: min-content;
+  margin: auto;
+  > div {
+    position: relative;
+  }
+}
+
+.geo-app.ratio-16-9::before {
+  float: left;
+  padding-top: 56.25%;
+  content: "";
+}
+
+.geo-app.ratio-8-3::before {
+  float: left;
+  padding-top: 37.5%;
+  content: "";
 }

@@ -124,7 +124,7 @@ $$
 
 ¿Cuántos rectángulos hay en esta figura?
 
-<div class="geo-app"><div id="ProblemaRectangulos1"></div></div>
+<div class="geo-app ratio-16-9"><div id="ProblemaRectangulos1"></div></div>
 
 >**a.** 8&#8195;
 >**b.** 9&#8195;
@@ -137,7 +137,7 @@ $$
 
 Podemos analizar cada vértice en la figura, sistemáticamente, de arriba a abajo y de izquierda a derecha, para verificar si es el vértice superior izquierdo de un rectángulo. 
 
-<div class="geo-app"><div id="ProblemaRectangulosSolucion1"></div></div>
+<div class="geo-app ratio-16-9"><div id="ProblemaRectangulosSolucion1"></div></div>
 
 De esta manera, obtenemos que hay 11 rectángulos posibles en la figura.
 
@@ -145,7 +145,7 @@ De esta manera, obtenemos que hay 11 rectángulos posibles en la figura.
 
 Un ocho son dos círculos del mismo tamaño y tangentes entre sí. ¿Cuántos ochos hay en este dibujo?
 
-<div class="geo-app"><div id="ProblemaOchos1"></div></div>
+<div class="geo-app ratio-16-9"><div id="ProblemaOchos1"></div></div>
 
 >**a.** 25&#8195;
 >**b.** 28&#8195;
@@ -172,7 +172,7 @@ Es necesario aclarar que la ecuación sólo tiene sentido para \\( n>2 \\)
 
 Cuente todos los círculos excepto los de la última hilera. A todos esos círculos, se les asignará un ocho, de manera que las rectas que pasa por el centro de los dos círculos que forman todos estos ochos tienen la misma dirección. Usted puede rotar la figura \\( 120^\circ \\) y contar los ochos rotados. 
 
-<div class="geo-app"><div id="ProblemaOchosSolucionRotacion1"></div></div>
+<div class="geo-app ratio-16-9"><div id="ProblemaOchosSolucionRotacion1"></div></div>
 
 El número de círculos que hay sin contar los de la última hilera es \\( \frac{(n-1)n}{2}\\). Como se cuentan las tres rotaciones de cada ocho, el número de ochos es:
 
@@ -237,7 +237,7 @@ En el lado \\( BC \\) de un triángulo \\( ABC \\) se ubica el punto \\( P \\) d
 {:.no_toc}
 
 Trace un punto \\( A^\prime \\) sobre el rayo \\( \overrightarrow{BC} \\) tal que \\( AC=A^\prime C\\). Dado que \\( A^\prime P=PB \\) y \\( \frac{PB}{A^\prime P}=\frac{BR}{AR} \\), por el Teorema de Tales se tiene que \\( PR\parallel A^\prime A\\).
-<div class="geo-app"><div id="Problema43GradosSolucion1"></div></div>
+<div class="geo-app ratio-16-9"><div id="Problema43GradosSolucion1"></div></div>
 
 Esto implica que \\( \angle AA^\prime C=\angle A^\prime AC= 43^\circ\\). En conclusión
 
@@ -816,7 +816,7 @@ $$
 
 Como \\( \angle PEF=\angle PBD \\) y \\( \frac{EP}{PB}=\frac{EF}{BD} \\), por criterio **LAL** \\( \triangle EPF\cong \triangle PBD \\). 
 
-<div class="geo-app"><div id="ProblemaCuadradoLALSolucion1"></div></div>
+<div class="geo-app ratio-16-9"><div id="ProblemaCuadradoLALSolucion1"></div></div>
 
 Esto significa que:
 

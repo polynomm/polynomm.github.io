@@ -51,3 +51,14 @@ p > mjx-container {
 p [class*="deg-"].math {
   display: inline-table;
 }
+
+// Esto sirve para que no haya una barra blanca a la derecha en teléfonos.
+html,
+body {
+  overflow-x: hidden;
+}
+
+// Esto sirve para que las tablas de contenido generadas automáticamente no sobresalgan
+ul li a {
+  display: block !important;
+}

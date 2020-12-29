@@ -73,7 +73,7 @@ Un tonel esta lleno \\( \frac{1}{4} \\) de lo que no esta lleno ¿Qué fracción
 
 ¿Cuántos rectángulos hay en esta figura?
 
-<div class="geo-app"><div id="ProblemaRectangulos1"></div></div>
+<div class="geo-app ratio-16-9"><div id="ProblemaRectangulos1"></div></div>
 
 >**a.** 8&#8195;
 >**b.** 9&#8195;
@@ -86,7 +86,7 @@ Un tonel esta lleno \\( \frac{1}{4} \\) de lo que no esta lleno ¿Qué fracción
 
 Un ocho son dos círculos del mismo tamaño y tangentes entre sí. ¿Cuántos ochos hay en este dibujo?
 
-<div class="geo-app"><div id="ProblemaOchos1"></div></div>
+<div class="geo-app ratio-16-9"><div id="ProblemaOchos1"></div></div>
 
 >**a.** 25&#8195;
 >**b.** 28&#8195;
@@ -336,7 +336,7 @@ Un piso rectangular es cubierto totalmente con mosaicos cuadrados de igual tama�
 
 Un ocho son dos círculos del mismo tamaño y tangentes entre sí. ¿Cuántos ochos hay en este dibujo?
 
-<div class="geo-app"><div id="ProblemaOchos2"></div></div>
+<div class="geo-app ratio-16-9"><div id="ProblemaOchos2"></div></div>
 
 >**a.** 25&#8195;
 >**b.** 28&#8195;
@@ -545,7 +545,7 @@ Un piso rectangular es cubierto totalmente con mosaicos cuadrados de igual tama�
 
 Un ocho son dos círculos del mismo tamaño y tangentes entre sí. ¿Cuántos ochos hay en este dibujo?
 
-<div class="geo-app"><div id="ProblemaOchos3"></div></div>
+<div class="geo-app ratio-16-9"><div id="ProblemaOchos3"></div></div>
 
 >**a.** 25&#8195;
 >**b.** 28&#8195;

@@ -33,19 +33,19 @@ Al interior de cada lado del triángulo \\(ABC\\) se trazan dos puntos que divid
 
 Encuentre \\(\frac{A_1}{A_2}\\).
 
-<div class="geo-app"><div id="P1"></div></div>
+<div class="geo-app ratio-8-3"><div id="P1"></div></div>
 
 #### Solución
 
 En la siguiente figura, los pares puntos marcados en \\(AB\\) y \\(AC\\) son \\(P_1\\) y \\(P_3\\), y \\(Q_1\\) y \\(Q_3\\),respectivamente, de manera que \\(\frac{AP_1}{P_1B}=\frac{AQ_1}{Q_1C}=\frac{1}{2}\\). \\(P_2\\) y \\(Q_2\\) son las intersecciones de \\(AP\\) y \\(AQ\\) con \\(P_1Q_1\\); \\(P_4\\) y \\(Q_4\\) son las intersecciones de \\(PP_1\\) y \\(QQ_1\\) con \\(P_3Q_3\\); \\(P_5\\) y \\(Q_5\\) son las intersecciones de \\(AP\\) y \\(AQ\\) con \\(P_3Q_3\\), respectivamente.
 
-<div class="geo-app"><div id="P1_S1_1"></div></div>
+<div class="geo-app ratio-8-3"><div id="P1_S1_1"></div></div>
 
 Sea \\(k\\) la recta paralela a \\(BC\\) por \\(A\\).
 
 Como \\(\frac{AP_1}{P_1B}=\frac{AQ_1}{Q_1C}\\), y \\(\frac{AP_3}{P_3B}=\frac{AQ_3}{Q_3C}\\), por el **Teorema de Tales**, la recta \\(\ell\\) que pasa por \\(P_1\\) y \\(Q_1\\), y la recta \\(m\\) que pasa por \\(P_3\\) y \\(Q_3\\), son paralelas a la recta \\(n\\) que pasa por \\(B\\) y \\(C\\). Ahora, trazamos la altura del triángulo \\(ABC\\) que pasa por \\(A\\), la cual intersecta a \\(\ell\\), \\(m\\) y \\(n\\) en \\(X\\), \\(Y\\) y \\(Z\\), respectivamente. Si \\(Z\ne B\\), por el **Teorema de Tales**, se tiene que \\(\frac{AP_1}{P_1P_3}=\frac{AX}{XY}=1\\) y \\(\frac{P_1P_3}{P_3B}=\frac{XY}{YZ}=1\\). Si \\(Z=B\\), \\(P_1=X\\) y \\(P_3=Y\\). En ambos casos, resulta que la distancia entre \\(k\\) y \\(\ell\\), entre \\(\ell\\) y \\(m\\), y entre \\(m\\) y \\(n\\), es la misma.
 
-<div class="geo-app"><div id="P1_S1_2"></div></div>
+<div class="geo-app ratio-16-9"><div id="P1_S1_2"></div></div>
 
 Para finalizar, utilizaremos una propiedad que cumplen las rectas paralelas:
 
@@ -123,7 +123,7 @@ Encuentre, en todos los casos:
 * el área de \\(A_nB_nC_n\\) para todo entero no negativo \\(n\\).
 * todos los enteros no negativos \\(n\\) para los cuales \\(A_nB_nC_n\\) tiene lados paralelos a los lados de \\(A_0B_0C_0\\).
 
-<div class="geo-app"><div id="P2"></div></div>
+<div class="geo-app ratio-16-9"><div id="P2"></div></div>
 
 Nota: *El valor de \\(\frac{A_iA_{i+1}}{A_{i+1}B_i}\\), que puede ser \\(\frac{1}{2}\\) o \\(2\\), no es necesariamente igual al valor de \\(\frac{A_jA_{j+1}}{A_{j+1}B_j}\\) para enteros no negativos distintos \\(i,j\\) .*
 
@@ -227,7 +227,7 @@ Utilizaremos dos propiedades para resolver este problema:
 
 La primera propiedad implica que los ángulos \\(\angle O_1PQ\\) y \\(\angle O_2PQ\\) son rectos, por lo que podemos aplicar directamente el Teorema de Pitágoras en los triángulos \\(PQO_1\\) y \\(PQO_2\\):
 
-<div class="geo-app"><div id="P3_S1_1"></div></div>
+<div class="geo-app ratio-16-9"><div id="P3_S1_1"></div></div>
 
 $$
 \begin{align*}

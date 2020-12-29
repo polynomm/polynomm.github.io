@@ -126,7 +126,7 @@
   /* Let's get this party started */
   ::-webkit-scrollbar {
     position: static;
-    width: 8px;
+    width: 0; //Esto es para que en dispositivos móviles la barra no genere un espacio en blanco
   }
 
   /* Track

@@ -199,4 +199,9 @@ Ajuste para deg-sitios según tema
     @include deg-fondo(map-get($colores-deg-sitio, deg-sitio));
     background-color: #fff;
   }
+
+  //Para enlaces normales
+  .main-content a {
+    display: inline-flex;
+  }
 }

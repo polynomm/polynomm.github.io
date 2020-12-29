@@ -33,7 +33,7 @@ Al interior de cada lado del triángulo \\(ABC\\) se trazan dos puntos que divid
 
 Encuentre \\(\frac{A_1}{A_2}\\).
 
-<div class="geo-app"><div id="Problema1"></div></div>
+<div class="geo-app ratio-8-3"><div id="Problema1"></div></div>
 
 <div></div>
 {:.salto .no-mostrar}
@@ -66,7 +66,7 @@ Encuentre, en todos los casos:
 * el área de \\(A_nB_nC_n\\) para todo entero no negativo \\(n\\).
 * todos los enteros no negativos \\(n\\) para los cuales \\(A_nB_nC_n\\) tiene lados paralelos a los lados de \\(A_0B_0C_0\\).
 
-<div class="geo-app"><div id="Problema2"></div></div>
+<div class="geo-app ratio-16-9"><div id="Problema2"></div></div>
 
 Nota: *El valor de \\(\frac{A_iA_{i+1}}{A_{i+1}B_i}\\), que puede ser \\(\frac{1}{2}\\) o \\(2\\), no es necesariamente igual al valor de \\(\frac{A_jA_{j+1}}{A_{j+1}B_j}\\) para enteros no negativos distintos \\(i,j\\) .*
 
