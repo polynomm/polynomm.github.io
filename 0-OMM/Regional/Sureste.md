@@ -23,7 +23,9 @@ A entrenar.
 
 A continuación, la lista ordenada de los exámenes de esta región recopilados en este sitio:
 
+* [2016 Sureste]({{ '/0-OMM/Regional/Sureste/2016-ORS' | absolute_url }})
 * [2017 Sureste]({{ '/0-OMM/Regional/Sureste/2017-ORS' | absolute_url }})
 * [2018 Sureste]({{ '/0-OMM/Regional/Sureste/2018-ORS' | absolute_url }})
+* [2019 Sureste]({{ '/0-OMM/Regional/Sureste/2019-ORS' | absolute_url }})
 * [2020 Sureste]({{ '/0-OMM/Regional/Sureste/2020-ORS' | absolute_url }})
 
