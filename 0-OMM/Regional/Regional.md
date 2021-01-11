@@ -3,7 +3,7 @@ layout: default
 title: Concursos regionales
 nav_order: 1
 description: "Contenido importante para el sitio."
-last_modified_date: 2020-08-17T09:00:00+0000
+last_modified_date: 2021-01-10T20:00:00+0000
 parent: OMM
 has_children: true
 ---
