@@ -2,7 +2,8 @@
  Tema sin deg-sitios impresión y móvil
  */
 
-@media not screen and (min-width: map-get($media-queries,md)) {
+@media not screen and (min-width: map-get($media-queries,md)),
+  (min--moz-device-pixel-ratio: 0) {
   a {
     @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
   }
@@ -13,11 +14,12 @@
   h4:hover,
   h5:hover,
   h6:hover {
-    a {
+    a.anchor-heading {
       //Los símbolos junto a los encabezados (svg) son el contenido
       -webkit-background-clip: none;
+      background-clip: none;
       svg {
-        @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+        color: $body-heading-color;
         mix-blend-mode: unset;
       }
     }
@@ -171,5 +173,74 @@
 
   .deg-sitio.math {
     @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+  }
+
+  /*
+  Mathjax coloreado
+  */
+
+  [class*="deg-"].math {
+    .MJX-TEX {
+      margin: 0;
+      -webkit-text-fill-color: map-get($colores-deg-sitio, alter-sitio);
+      background-color: $body-background-color;
+      mix-blend-mode: unset;
+      * {
+        border-color: map-get($colores-deg-sitio, alter-sitio);
+      }
+    }
+  }
+
+  a .MJX-TEX {
+    margin: 0;
+    -webkit-text-fill-color: inherit;
+    background-color: transparent;
+    mix-blend-mode: unset;
+    * {
+      border-color: inherit;
+    }
+  }
+
+  /*
+  Colores .deg-sitio-n, donde n indica la variable de color del tema cuando no se soportan degradados.
+  En este caso, en modo escritorio actúa de manera normal, pero modifica a voluntad el color en
+  modo de impresión y en móvil. Coloqué 12 porque tiene varios divisores, entre ellos el 6. 
+  Colocar menos era limitado y colocar más era exagerado.
+  */
+  .deg-sitio-1 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-1));
+  }
+  .deg-sitio-2 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-2));
+  }
+  .deg-sitio-3 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-3));
+  }
+  .deg-sitio-4 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-4));
+  }
+  .deg-sitio-5 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-5));
+  }
+  .deg-sitio-6 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-6));
+  }
+  .deg-sitio-7 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-7));
+  }
+  .deg-sitio-8 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-8));
+  }
+  .deg-sitio-9 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-9));
+  }
+  .deg-sitio-10 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-10));
+  }
+  .deg-sitio-11 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-11));
+  }
+  .deg-sitio-12 {
+    @include alter-texto(map-get($colores-deg-sitio, alter-sitio-12));
   }
 }

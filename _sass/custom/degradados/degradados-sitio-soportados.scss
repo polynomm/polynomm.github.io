@@ -5,7 +5,7 @@ $colores-deg-sitio: (
   alter-sitio-texto-color: #fff,
 ) !default;
 @media only screen and (min-width: map-get($media-queries,md)) {
-  .deg-sitio {
+  [class*="deg-sitio"] {
     @include deg(map-get($colores-deg-sitio, deg-sitio));
   }
 
@@ -34,9 +34,10 @@ Ajuste para deg-sitios según tema
   h4:hover,
   h5:hover,
   h6:hover {
-    a {
+    a.anchor-heading {
       //Los símbolos junto a los encabezados (svg) son el contenido
       -webkit-background-clip: content-box;
+      background-clip: content-box;
       //Se coloca mix blend mode en svg para que cambie a deg-sitio.
       svg {
         color: #000;
@@ -61,7 +62,7 @@ Ajuste para deg-sitios según tema
 
   //En search result es importante que no se apliquen deg-sitios y que al colocar el mouse no cambie display a inline flex
   a.search-result {
-    color: #000;
+    color: $body-heading-color;
     -webkit-text-fill-color: unset !important;
     background-image: none !important;
     &:hover {
@@ -135,9 +136,15 @@ Ajuste para deg-sitios según tema
 
   //Esto es sólo si la  del
 
-  a.nav-list-link mjx-container {
+  .nav-list-link > mjx-container {
     position: static;
     display: inline-flex;
+    -webkit-text-fill-color: unset !important;
+    background-image: unset !important;
+    * {
+      -webkit-text-fill-color: unset !important;
+      background-image: unset !important;
+    }
   }
 
   .deg-sitio.deg-sitio-texto > mjx-container {
@@ -148,11 +155,24 @@ Ajuste para deg-sitios según tema
   [class*="deg-"].math {
     -webkit-background-clip: content-box;
     .MJX-TEX {
+      padding: 1em 0 0.5em;
       margin: 0;
       -webkit-text-fill-color: #000;
       background-color: #fff;
       border-color: #fff;
       mix-blend-mode: screen;
+    }
+  }
+
+  a:not(.site-title) .MJX-TEX {
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    -webkit-text-fill-color: $body-text-color !important;
+    * {
+      border-color: $body-text-color;
     }
   }
 
@@ -203,5 +223,43 @@ Ajuste para deg-sitios según tema
   //Para enlaces normales
   .main-content a {
     display: inline-flex;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  h1:hover,
+  h2:hover,
+  h3:hover,
+  h4:hover,
+  h5:hover,
+  h6:hover {
+    a.anchor-heading {
+      //Los símbolos junto a los encabezados (svg) son el contenido
+      -webkit-background-clip: content-box;
+      background-clip: content-box;
+      mix-blend-mode: lighten;
+      //Se coloca mix blend mode en svg para que cambie a deg-sitio.
+      svg {
+        color: #fff;
+        background: $body-background-color;
+        mix-blend-mode: darken;
+      }
+    }
+  }
+
+  [class*="deg-"].math {
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    mix-blend-mode: lighten;
+    .MJX-TEX {
+      margin: 0;
+      -webkit-text-fill-color: #fff;
+      text-fill-color: #fff;
+      background-color: $body-background-color;
+      mix-blend-mode: darken;
+      * {
+        border-color: #fff;
+      }
+    }
   }
 }

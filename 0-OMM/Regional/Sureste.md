@@ -1,5 +1,7 @@
 ---
 layout: default
+tema: Azul
+tema_oscuro: AzulOscuro
 title: Sureste
 nav_order: Sureste
 description: "Olimpiadas Regionales del Sureste"
@@ -7,11 +9,6 @@ last_modified_date: 2021-01-06T21:30:00+0000
 parent: Concursos regionales
 grand_parent: OMM
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degAzul.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degAzul');
-</script>
 
 <!--Enviado por José Hdz. Stgo. al correo polynomm@outlook.com el 1 de enero de 2021-->
 

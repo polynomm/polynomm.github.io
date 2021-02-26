@@ -1,16 +1,13 @@
 ---
 layout: default
+tema: Naranja
+tema_oscuro: NaranjaOscuro
 title: Listas POLYNOMM
 nav_order: 6
 description: "Página de entrenamientos"
 last_modified_date: 2020-08-17T09:00:00+0000
 has_children: true
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degNaranja.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degNaranja');
-</script>
 
 # Listas POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>
 {:.fs-9}

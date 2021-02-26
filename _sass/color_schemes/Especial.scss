@@ -1,0 +1,30 @@
+@use "sass:map";
+$colores-deg-sitio: (
+  deg-sitio:
+    linear-gradient(
+      to bottom,
+      #ff0018 0%,
+      #ff0417 6.25%,
+      #ff310e 12.5%,
+      #ff5d06 18.75%,
+      #ff7a01 25%,
+      #ff8701 31.25%,
+      #ffae00 37.5%,
+      #d9c507 43.75%,
+      #79c718 50%,
+      #01c92d 56.25%,
+      #01be69 62.5%,
+      #01b3aa 68.75%,
+      #0ba1df 75%,
+      #3f77e6 81.25%,
+      #724cec 87.5%,
+      #8a39ef 93.75%,
+      #8a39ef 100%
+    ),
+  alter-sitio: #00c9bf,
+  deg-sitio-texto-color: #fff,
+  alter-sitio-texto-color: #fff,
+);
+$link-color: $grey-dk-300;
+$body-font-family: "Raleway", sans-serif;
+$mono-font-family: "Ubuntu Mono", monospace;

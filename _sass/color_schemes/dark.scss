@@ -1,3 +1,41 @@
+$colores-deg-sitio: (
+  deg-sitio:
+    linear-gradient(
+      to bottom,
+      #ff0018 0%,
+      #ff0417 6.25%,
+      #ff310e 12.5%,
+      #ff5d06 18.75%,
+      #ff7a01 25%,
+      #ff8701 31.25%,
+      #ffae00 37.5%,
+      #dab200 43.75%,
+      #79c718 50%,
+      #01c92d 56.25%,
+      #01be69 62.5%,
+      #01b3aa 68.75%,
+      #0ba1df 75%,
+      #3f77e6 81.25%,
+      #724cec 87.5%,
+      #8a39ef 93.75%,
+      #8a39ef 100%
+    ),
+  alter-sitio: #ff0218,
+  alter-sitio-1: #ff0019,
+  alter-sitio-2: #ff5d06,
+  alter-sitio-3: #ff8701,
+  alter-sitio-4: #ffae00,
+  alter-sitio-5: #79c718,
+  alter-sitio-6: #00c52b,
+  alter-sitio-7: #01be69,
+  alter-sitio-8: #00b1a8,
+  alter-sitio-9: #0ba1df,
+  alter-sitio-10: #3f77e6,
+  alter-sitio-11: #724cec,
+  alter-sitio-12: #5d12b9,
+  deg-sitio-texto-color: #fff,
+  alter-sitio-texto-color: #fff,
+);
 $body-background-color: $grey-dk-300;
 $sidebar-color: $grey-dk-300;
 $border-color: $grey-dk-200;
@@ -7,7 +45,7 @@ $body-heading-color: $grey-lt-000;
 $nav-child-link-color: $grey-dk-000;
 $search-result-preview-color: $grey-dk-000;
 
-$link-color: $blue-000;
+$link-color: $body-heading-color;
 $btn-primary-color: $blue-200;
 $base-button-color: $grey-dk-250;
 

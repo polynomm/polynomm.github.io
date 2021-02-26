@@ -37,7 +37,7 @@ h6,
 .text-delta {
   font-family: Quicksand, sans-serif;
   font-weight: 600;
-  color: #000;
+  color: $body-heading-color;
   text-align: left;
 }
 .main-content {
@@ -56,12 +56,9 @@ h6,
   font-family: Quicksand, sans-serif;
 }
 
-.nav-list .nav-list-item .nav-list-link.active {
-  font-weight: 700;
-}
-
+.nav-list .nav-list-item .nav-list-link.active,
 .nav-list .nav-list-item .nav-list-link {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .main-content a {
@@ -81,5 +78,9 @@ h6,
 .GeoGebraFrame .gwt-SuggestBoxPopup,
 .GeoGebraFrame .ToolTip {
   font-family: Quicksand, sans-serif;
+  font-weight: 700;
+}
+
+#markdown-toc a {
   font-weight: 700;
 }

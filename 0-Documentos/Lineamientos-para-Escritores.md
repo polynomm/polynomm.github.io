@@ -1,16 +1,13 @@
 ---
 layout: default
+tema: Naranja
+tema_oscuro: NaranjaOscuro
 title: Lineamientos para Escritores
 description: "Se describen los lineamientos para colaborar con el contenido del sitio."
 last_modified_date: 2020-09-20T18:00:00+0000
 parent: Documentos
 nav_order: 3
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degNaranja.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degNaranja');
-</script>
 
 # ¿Cómo se edita el contenido en POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>?<i class="jpa-anim-rel-nerd_face jpa-2em"></i>
 {:.fs-9}

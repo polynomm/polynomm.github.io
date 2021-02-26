@@ -1,5 +1,6 @@
 ---
 layout: default
+search_exclude: true
 title: Inicio 
 nav_order: 1
 description: "Página de inicio con información relevante."

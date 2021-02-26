@@ -8,10 +8,10 @@ $colores-deg-sitio: (
       #ff310e 12.5%,
       #ff5d06 18.75%,
       #ff7a01 25%,
-      #ff8701 31.25%,
-      #ffae00 37.5%,
-      #dfb709 43.75%,
-      #79c718 50%,
+      #f78400 31.25%,
+      #f7a800 37.5%,
+      #ddb502 43.75%,
+      #73c70e 50%,
       #01c92d 56.25%,
       #01be69 62.5%,
       #01b3aa 68.75%,
@@ -21,12 +21,22 @@ $colores-deg-sitio: (
       #8a39ef 93.75%,
       #8a39ef 100%
     ),
-  alter-sitio: #11c0e0,
+  alter-sitio: #ff0218,
+  alter-sitio-1: #ff0019,
+  alter-sitio-2: #ff5d06,
+  alter-sitio-3: #ff8701,
+  alter-sitio-4: #eca200,
+  alter-sitio-5: #79c718,
+  alter-sitio-6: #00c52b,
+  alter-sitio-7: #01be69,
+  alter-sitio-8: #00b1a8,
+  alter-sitio-9: #0ba1df,
+  alter-sitio-10: #3f77e6,
+  alter-sitio-11: #724cec,
+  alter-sitio-12: #5d12b9,
   deg-sitio-texto-color: #fff,
   alter-sitio-texto-color: #fff,
 );
 $link-color: $grey-dk-300;
 $body-font-family: "Raleway", sans-serif;
 $mono-font-family: "Ubuntu Mono", monospace;
-
-/* Añadir alternativas */

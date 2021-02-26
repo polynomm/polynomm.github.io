@@ -1,5 +1,8 @@
 ---
 layout: default
+search_exclude: true
+tema: Azul
+tema_oscuro: AzulOscuro
 title: Ecuaciones
 nav_order: 2020-09-28
 description: "Ecuaciones diofantinas y de soluciones reales"
@@ -7,11 +10,6 @@ last_modified_date: 2020-09-28T13:00:00+0000
 grand_parent: Listas POLYNOMM
 parent: POLYNOMM 2020
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degAzul.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degAzul');
-</script>
 
 # <span class="deg-sitio deg-sitio-texto">Ecuaciones</span><i class="jpa-anim-rel-fire jpa-2em"></i>
 {:.fs-9 .no-toc}

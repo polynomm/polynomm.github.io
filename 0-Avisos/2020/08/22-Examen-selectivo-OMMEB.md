@@ -1,5 +1,8 @@
 ---
 layout: default
+search_exclude: true
+tema: Verde
+tema_oscuro: VerdeOscuro
 title: 22 de Agosto | Examen Selectivo
 nav_order: 2020-08-22
 description: "Aviso 22 de Agosto"
@@ -7,11 +10,6 @@ last_modified_date: 2020-08-22T18:30:00+0000
 grand_parent: Avisos
 parent: Avisos 2020
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degVerde.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degVerde');
-</script>
 
 # Examen para definir la delegación&nbsp;<span class="deg-sitio deg-sitio-texto">OMMEB 2020</span><i class="jpa-all-default-rel-smiling_face_with_hearts_with_face_mask jpa-2em"></i>
 {:.fs-9 .no_toc}

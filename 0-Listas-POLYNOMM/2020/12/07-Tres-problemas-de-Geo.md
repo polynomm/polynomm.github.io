@@ -1,5 +1,8 @@
 ---
 layout: default
+search_exclude: true
+tema: Naranja
+tema_oscuro: NaranjaOscuro
 title: Soluciones Tres problemas de Geo
 nav_order: 2020-12-07
 description: "Soluciones de la lista Tres problemas POLYNOMM de Geometría"
@@ -7,11 +10,6 @@ last_modified_date: 2020-12-07T18:04:00+0000
 grand_parent: Listas POLYNOMM
 parent: POLYNOMM 2020
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degNaranja.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degNaranja');
-</script>
 
 # Soluciones de la lista Tres problemas de <span class="deg-sitio deg-sitio-texto">Geo</span><i class="jpa-anim-rel-jack_o_lantern jpa-2em"></i>
 {:.fs-9 .no-toc}
@@ -55,7 +53,7 @@ Así, podemos el problema se resuelve de la siguiente manera:
 
 Sea \\(h\\) la longitud de \\(AX\\).
 
-Dado que \\(P_1Q_1\parallel P_3Q_3\parallel BC\\), \\(\triangle AP_2Q_2\sim\triangle AP_5Q_5\sim\\) \\(\triangle APQ\\), resulta que \\(P_2Q_2=\frac{PQ}{3}\\) y \\(P_5Q_5=\frac{2PQ}{3}\\). Entonces:
+Dado que \\(P_1Q_1\parallel P_3Q_3\parallel BC\\), \\(\triangle AP_2Q_2\sim\triangle AP_5Q_5\sim\\) \\(\triangle APQ\\), resulta que \\(P_2Q_2=\frac{PQ}{3}\\) y \\(P_5Q_5=\frac{2PQ}{3}\\). Entonces:
 
 $$
 \begin{align*}
@@ -297,7 +295,7 @@ En base a lo anterior, podemos analizar dos casos:
 
 Es decir, la condición planteada en el problema se cumple si \\(PO_1=QO_2\\).
 
-Podemos finalizar de la siguiente manera: \\(PO_1\parallel QO_2\\) y \\(PO_1\perp PQ\\) implican que \\(PQO_2O_1\\) es un rectángulo y \\(PQ\parallel O_1O_2\\). Como las circunferencias son tangentes en \\(R\\), \\(R\\) pertenece al segmento \\(O_1O_2\\). Esto significa que \\(\angle QO_2R=90^\circ\\). Adicionalmente \\(O_2Q=O_2R\\), por lo que \\(\angle QRO_2=45^\circ\\). Como \\(PQ\parallel O_1O_2\\), se tiene que \\(\angle QRO_2=\\) \\(\angle PQR=45^\circ\\)
+Podemos finalizar de la siguiente manera: \\(PO_1\parallel QO_2\\) y \\(PO_1\perp PQ\\) implican que \\(PQO_2O_1\\) es un rectángulo y \\(PQ\parallel O_1O_2\\). Como las circunferencias son tangentes en \\(R\\), \\(R\\) pertenece al segmento \\(O_1O_2\\). Esto significa que \\(\angle QO_2R=90^\circ\\). Adicionalmente \\(O_2Q=O_2R\\), por lo que \\(\angle QRO_2=45^\circ\\). Como \\(PQ\parallel O_1O_2\\), se tiene que \\(\angle QRO_2=\\) \\(\angle PQR=45^\circ\\)
 
 
 

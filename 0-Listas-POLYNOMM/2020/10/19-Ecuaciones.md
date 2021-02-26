@@ -1,5 +1,8 @@
 ---
 layout: default
+search_exclude: true
+tema: Rosa
+tema_oscuro: RosaOscuro
 title: Soluciones Ecuaciones
 nav_order: 2020-10-19
 description: "Soluciones"
@@ -7,11 +10,6 @@ last_modified_date: 2020-10-19T11:40:00+0000
 grand_parent: Listas POLYNOMM
 parent: POLYNOMM 2020
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degRosa.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degRosa');
-</script>
 
 # Soluciones de la lista de&nbsp;<span class="deg-sitio deg-sitio-texto">Ecuaciones</span><i class="jpa-anim-rel-face_screaming_in_fear jpa-2em"></i>
 {:.fs-9 .no-toc}

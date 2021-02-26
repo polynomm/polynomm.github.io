@@ -1,5 +1,8 @@
 ---
 layout: default
+search_exclude: true
+tema: Rojo
+tema_oscuro: RojoOscuro
 title: OMM 2019 Concurso estatal
 nav_order: 2019-05-25
 description: "Etapa estatal de la OMM 2019 en Tlaxcala"
@@ -7,11 +10,6 @@ last_modified_date: 2020-09-23T20:00:00+0000
 parent: Tlaxcala 2019
 grand_parent: Tlaxcala
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degRojo.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degRojo');
-</script>
 
 # Olimpiada Mexicana de Matemáticas&nbsp;<span class="deg-sitio deg-sitio-texto">2019</span>
 {:.fs-9}

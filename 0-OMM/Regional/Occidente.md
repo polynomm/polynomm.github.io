@@ -1,5 +1,7 @@
 ---
 layout: default
+tema: Dorado
+tema_oscuro: DoradoOscuro
 title: Occidente
 nav_order: Occidente
 description: "Olimpiadas Regionales de Occidente"
@@ -7,11 +9,6 @@ last_modified_date: 2021-01-06T21:30:00+0000
 parent: Concursos regionales
 grand_parent: OMM
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degDorado.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degDorado');
-</script>
 
 # Olimpiadas Regionales de&nbsp;<span class="deg-sitio deg-sitio-texto">Occidente</span>
 {:.fs-9}

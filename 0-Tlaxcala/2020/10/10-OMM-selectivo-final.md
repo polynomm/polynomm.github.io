@@ -1,5 +1,8 @@
 ---
 layout: default
+search_exclude: true
+tema: Verde
+tema_oscuro: VerdeOscuro
 title: OMM 2020 Selectivo Final
 nav_order: 2020-10-10
 description: "Selectivo Final OMM 2020"
@@ -7,11 +10,6 @@ last_modified_date: 2020-10-10T10:00:00+0000
 parent: Tlaxcala 2020
 grand_parent: Tlaxcala
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degVerde.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degVerde');
-</script>
 
 # Olimpiada Mexicana de Matemáticas&nbsp;<span class="deg-sitio deg-sitio-texto">2020</span> Selectivo Final
 {:.fs-9}

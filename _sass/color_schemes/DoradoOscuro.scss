@@ -1,0 +1,32 @@
+@use "sass:map";
+$colores-deg-sitio: (
+  deg-sitio:
+    linear-gradient(
+      to top,
+      rgb(170, 122, 0) 0%,
+      rgb(182, 155, 0) 60%,
+      rgb(226, 181, 0) 100%
+    ),
+  alter-sitio: #cea500,
+  deg-sitio-texto-color: #fff,
+  alter-sitio-texto-color: #fff,
+);
+$body-font-family: "Raleway", sans-serif;
+$mono-font-family: "Ubuntu Mono", monospace;
+$body-background-color: $grey-dk-300;
+$sidebar-color: $grey-dk-300;
+$border-color: $grey-dk-200;
+
+$body-text-color: $grey-lt-300;
+$body-heading-color: $grey-lt-000;
+$nav-child-link-color: $grey-dk-000;
+$search-result-preview-color: $grey-dk-000;
+
+$link-color: $body-heading-color;
+$btn-primary-color: $blue-200;
+$base-button-color: $grey-dk-250;
+
+$code-background-color: $grey-dk-250;
+$search-background-color: $grey-dk-250;
+$table-background-color: $grey-dk-250;
+$feedback-color: darken($sidebar-color, 3%);

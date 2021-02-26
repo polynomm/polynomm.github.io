@@ -1,5 +1,8 @@
 ---
 layout: default
+search_exclude: true
+tema: Arcoiris
+tema_oscuro: ArcoirisOscuro
 title: Soluciones del Examen selectivo OMMEB 2020
 nav_order: 2020-09-20
 description: "Soluciones completas del examen."
@@ -7,11 +10,6 @@ last_modified_date: 2020-09-20T18:00:00+0000
 grand_parent: Tlaxcala
 parent: Tlaxcala 2020
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degArcoiris.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degArcoiris');
-</script>
 
 # Soluciones del Selectivo final&nbsp;<span class="deg-sitio deg-sitio-texto">OMMEB 2020</span><i class="jpa-anim-rel-face_screaming_in_fear jpa-2em"></i>
 {:.fs-9 .no-toc}
@@ -904,8 +902,8 @@ sea \\( p \\) un número primo tal que \\( p | a^2 + 1\\) y \\( p | b^2 + 1 \\).
 Si \\(p | a−b\\), entonces \\( p | ab−b^2 \\) y como \\( p | b^2+1\\) se sigue que \\( p | ab+1\\), lo que
 es una contradicción ya que \\( ab + 1 \\) y \\( a − b \\) son primos relativos. De manera análoga,
 si \\( p | a + b \\) entonces \\(p | ab − 1 \\), que es una contradicción. Por lo tanto, \\( a^2 + 1 \\) y
-\\( b^2 +1 \\) son primos relativos y su producto es un cuadrado. De aquí, \\( a^2 +1\\) y \\( b^2 +1 \\) son ambos cuadrados, lo cual no puede ser ya que \\(a^2+1 = m^2 \implies 1 = (m−a)(m+a)\\) \\(\implies \\)
-\\( m− a = \pm 1\\) y \\( m+ a = \pm 1\\) \\(\implies\\) \\( a = 0\\). De manera análoga, \\( b^2 + 1 = k^2 \implies b = 0\\).
+\\( b^2 +1 \\) son primos relativos y su producto es un cuadrado. De aquí, \\( a^2 +1\\) y \\( b^2 +1 \\) son ambos cuadrados, lo cual no puede ser ya que \\(a^2+1 = m^2 \implies 1 = (m−a)(m+a)\\) \\(\implies \\)
+\\( m− a = \pm 1\\) y \\( m+ a = \pm 1\\) \\(\implies\\) \\( a = 0\\). De manera análoga, \\( b^2 + 1 = k^2 \implies b = 0\\).
 Por lo tanto, \\( (ab + 1)^2 + (a − b)^2 \\) no es un cuadrado.
 
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">3B-3</span>

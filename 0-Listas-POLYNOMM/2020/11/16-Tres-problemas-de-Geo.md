@@ -1,5 +1,8 @@
 ---
 layout: default
+search_exclude: true
+tema: Naranja
+tema_oscuro: NaranjaOscuro
 title: Tres problemas de Geo
 nav_order: 2020-11-16
 description: "Tres problemas POLYNOMM de Geometría"
@@ -7,11 +10,6 @@ last_modified_date: 2020-09-28T13:00:00+0000
 grand_parent: Listas POLYNOMM
 parent: POLYNOMM 2020
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degNaranja.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degNaranja');
-</script>
 
 # Tres problemas de <span class="deg-sitio deg-sitio-texto">Geo</span><i class="jpa-anim-rel-jack_o_lantern jpa-2em"></i>
 {:.fs-9 .no-toc}

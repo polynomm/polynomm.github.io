@@ -1,5 +1,7 @@
 ---
 layout: default
+tema: Verde
+tema_oscuro: VerdeOscuro
 title: Zona Centro
 nav_order: Zona Centro
 description: "Olimpiadas Regionales Zona Centro"
@@ -7,11 +9,6 @@ last_modified_date: 2021-01-06T21:30:00+0000
 parent: Concursos regionales
 grand_parent: OMM
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degVerde.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degVerde');
-</script>
 
 # Olimpiadas Regionales&nbsp;<span class="deg-sitio deg-sitio-texto">Zona Centro</span>
 {:.fs-9}

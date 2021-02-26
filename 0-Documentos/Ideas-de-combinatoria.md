@@ -1,15 +1,13 @@
 ---
 layout: default
+search_exclude: true
+tema: Especial
+tema_oscuro: EspecialOscuro
 title: Ideas de Combinatoria
 description: "Entrenamiento del 14 de marzo de 2020"
 last_modified_date: 2020-03-14T9:00:00+0000
 parent: Documentos
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degEspecial.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degEspecial');
-</script>
 
 # Ideas de&nbsp;<span class="deg-sitio deg-sitio-texto">Combinatoria</span>&nbsp;N+<i class="jpa-all-default-rel-face_with_magnifying_glass jpa-2em"></i>
 {:.fs-9}

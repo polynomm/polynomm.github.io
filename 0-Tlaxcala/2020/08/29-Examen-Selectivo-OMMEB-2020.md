@@ -1,5 +1,8 @@
 ---
 layout: default
+search_exclude: true
+tema: Arcoiris
+tema_oscuro: ArcoirisOscuro
 title: Examen selectivo OMMEB 2020
 nav_order: 2020-08-29
 description: "Versión final"
@@ -7,11 +10,6 @@ last_modified_date: 2020-08-29T10:00:00+0000
 grand_parent: Tlaxcala
 parent: Tlaxcala 2020
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degArcoiris.css' | absolute_url }}">
-<script>
-    jtd.setTheme('degArcoiris');
-</script>
 
 # Selectivo final&nbsp;<span class="deg-sitio deg-sitio-texto">OMMEB 2020</span><i class="jpa-anim-rel-face_screaming_in_fear jpa-2em"></i>
 {:.fs-9 .no-toc}

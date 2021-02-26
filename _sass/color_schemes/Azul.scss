@@ -1,12 +1,11 @@
 @use "sass:map";
 $colores-deg-sitio: (
-  deg-sitio: linear-gradient(to bottom, #00bd91 25%, #56b800 75%),
-  alter-sitio: #00ca51,
+  deg-sitio:
+    linear-gradient(to top, rgba(21, 21, 212, 1) 0.9%, rgb(0, 197, 223) 70%),
+  alter-sitio: #11c0e0,
   deg-sitio-texto-color: #fff,
   alter-sitio-texto-color: #fff,
 );
 $link-color: $grey-dk-300;
 $body-font-family: "Raleway", sans-serif;
-$mono-font-family: "Ubuntu Mono" monospace;
-
-/* Añadir alternativas */
+$mono-font-family: "Ubuntu Mono", monospace;
