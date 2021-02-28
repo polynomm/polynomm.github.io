@@ -1,7 +1,7 @@
 ---
 layout: default
 tema: Azul
-tema_oscuro: Azul Oscuro
+tema_oscuro: AzulOscuro
 title: Avisos
 description: "Avisos del sitio."
 last_modified_date: 2020-08-17T09:00:00+0000
