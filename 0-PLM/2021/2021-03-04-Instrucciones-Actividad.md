@@ -38,4 +38,4 @@ Sólo llena el siguiente formulario con tus datos. El envío de respuestas cerra
 
 ## Contacto
 
-En caso de dudas, preguntas o comentarios, puede enviar un correo electrónico a **pensamiento.logico.matematico@septlaxcala.gob.mx**, o llamar al teléfono **236 00 ext. 23 36**.
+En caso de dudas, preguntas o comentarios, puede enviar un correo electrónico a **pensamiento.logico.matematico&#x200B;@septlaxcala.gob.mx**, o llamar al teléfono **236 00 ext. 23 36**.
