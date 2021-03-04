@@ -9,10 +9,10 @@ last_modified_date: 2020-12-25T17:00:00+0000
 ---
 
 
-# ¡Felices fiestas!<i class="jpa-anim-rel-christmas_tree jpa-2em"></i>
+# ¡Bienvenidos!
 {:.fs-9}
 
-Entrena con la recopilación de Olimpiadas Regionales Zona Centro [aquí](https://polynomm.github.io/0-OMM/Regional/Regional/) (o ve a la sección **OMM** y haz clic en **Concursos regionales**).
+Las instrucciones para la actividad se encuentran [aquí]({{'/0-PLM/PLM-2021/2021-03-04-Instrucciones-Actividad' | absolute_url }}) (o ve a la sección **PLM>PLM 2021**, y haz clic en **Instrucciones Resolución de problemas**).
 
 Este sitio está en construcción, pero los <span class="deg-sitio deg-sitio-texto">Escritores</span> y la c<span class="deg-sitio deg-sitio-texto">omm</span>unidad están comprometidos a hacerlo crecer para el beneficio de todos.
 
