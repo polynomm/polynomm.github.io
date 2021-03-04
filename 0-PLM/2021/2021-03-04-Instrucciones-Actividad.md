@@ -19,7 +19,7 @@ Revise las instrucciones y conteste el formulario para realizar el seguimiento a
 
 ## ¿Cómo puedo participar?
 
-¡Es muy sencillo! Sólo llena el formulario, y el día 12 de febrero de 2021, a las 11 a.m. Hora de Ciudad de México, accede a nuestra página de inicio [polynomm.github.io](https://polynomm.github.io). 
+¡Es muy sencillo! Sólo llena el formulario, y el día 12 de marzo de 2021, a las 11 a.m. Hora de Ciudad de México, accede a nuestra página de inicio [polynomm.github.io](https://polynomm.github.io). 
 
 Ahí se incluirá un enlace directo a la lista de ejercicios (también podrás acceder a ellos en la sección **PLM>PLM 2021**, utilizando el menú de navegación). Encontrarás los enunciados, y un formulario.
 
@@ -29,7 +29,7 @@ A las 12 p.m. Hora de Ciudad de México, se incluirá un enlace directo en la p�
 
 ## ¿Cómo me registro?
 
-Sólo llena el siguiente formulario con tus datos. El envío de respuestas cerrará el 11 de febrero de 2021 a las 7 p.m. Hora de Ciudad de México.
+Sólo llena el siguiente formulario con tus datos. El envío de respuestas cerrará el 11 de marzo de 2021 a las 7 p.m. Hora de Ciudad de México.
 
 **Nota:** *Verifique la ortografía. Su registro se guardará incluso si el formulario se abre en una nueva pestaña.*
 
