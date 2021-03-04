@@ -25,7 +25,7 @@ Ahí se incluirá un enlace directo a la lista de ejercicios (también podrás a
 
 Tendrás <span class="deg-sitio deg-sitio-texto">1 hora</span> para resolver los ejercicios y enviar las respuestas a través del formulario. Será necesario subir un archivo PDF para el procedimiento de un problema, por lo que recomendamos tener una opción para crear el documento, como la app Office Lens o un escáner.
 
-A la 1 p.m. Hora de Ciudad de México, se incluirá un enlace directo en la página de inicio y podrás acceder a las soluciones de cada ejercicio (que también estarán disponible en la sección **PLM>PLM 2021**).
+A las 12 p.m. Hora de Ciudad de México, se incluirá un enlace directo en la página de inicio y podrás acceder a las soluciones de cada ejercicio (que también estarán disponible en la sección **PLM>PLM 2021**).
 
 ## ¿Cómo me registro?
 
