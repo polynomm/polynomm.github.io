@@ -4,7 +4,7 @@ $colores-deg-sitio: (
   deg-sitio-texto-color: #fff,
   alter-sitio-texto-color: #fff,
 ) !default;
-@media only screen and (min-width: map-get($media-queries,md)) {
+@media only screen and (min-width: map-get($media-queries,md)) and (pointer: fine) {
   [class*="deg-sitio"] {
     @include deg(map-get($colores-deg-sitio, deg-sitio));
   }

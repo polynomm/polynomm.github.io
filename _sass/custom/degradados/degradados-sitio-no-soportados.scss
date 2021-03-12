@@ -2,7 +2,7 @@
  Tema sin deg-sitios impresión y móvil
  */
 
-@media not screen and (min-width: map-get($media-queries,md)),
+@media not screen and (min-width: map-get($media-queries,md)) and (pointer: fine),
   (min--moz-device-pixel-ratio: 0) {
   a {
     @include alter-texto(map-get($colores-deg-sitio, alter-sitio));

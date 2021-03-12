@@ -4,7 +4,7 @@ search_exclude: true
 tema: Verde
 tema_oscuro: VerdeOscuro
 title: Instrucciones Resolución de problemas
-nav_order: 2021
+nav_order: 2021-03-04
 description: "Contenido importante para el sitio."
 last_modified_date: 2021-03-04T10:00:00+0000
 parent: PLM 2021
@@ -33,8 +33,8 @@ Sólo llena el siguiente formulario con tus datos. El envío de respuestas cerra
 
 **Nota:** *Verifique la ortografía. Su registro se guardará incluso si el formulario se abre en una nueva pestaña.*
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfuGCR0cYlg-Pk0DKH83ExG5J_Q5DPHqGs73HRiW4cO2wZuKg/viewform?embedded=true" width="100%" height="360" margin="auto" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-{:.no-imprimir}
+<!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfuGCR0cYlg-Pk0DKH83ExG5J_Q5DPHqGs73HRiW4cO2wZuKg/viewform?embedded=true" width="100%" height="360" margin="auto" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+{:.no-imprimir}-->
 
 ## Contacto
 
