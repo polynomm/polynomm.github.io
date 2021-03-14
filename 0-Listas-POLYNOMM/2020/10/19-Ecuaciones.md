@@ -105,7 +105,7 @@ $$
 Como \\( x\ne y\\), \\( x-y\ne 0\\), es decir, \\( x+y=3 \\) en la última ecuación para que se cumpla la igualdad. Ahora, sumamos las dos ecuaciones iniciales para terminar.
 
 $$
-\begin{align*}
+\begin{align*}\require{cancel}
 (y+4)+[x-4]&=(x-2)^2+[y-2]^2\\
 x+y+\cancel{8}&=x^2+y^2-4(x+y)+\cancel{8}\\[0.5em]
 x^2+y^2&=5(x+y)\\
