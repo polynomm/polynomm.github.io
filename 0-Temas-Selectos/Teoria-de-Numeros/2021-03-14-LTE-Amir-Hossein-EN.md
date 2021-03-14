@@ -6,7 +6,7 @@ tema_oscuro: ArcoirisOscuro
 title: LTE by Amir Hossein
 nav_order: 1
 description: "Lifting the Exponent Lemma."
-last_modified_date: 2020-08-29T10:00:00+0000
+last_modified_date: 2021-03-14T15:14:15+9265
 parent: Teoría de Números
 grand_parent: Temas Selectos
 ---
