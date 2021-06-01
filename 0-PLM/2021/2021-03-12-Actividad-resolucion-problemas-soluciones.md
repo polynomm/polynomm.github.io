@@ -3,7 +3,7 @@ layout: default
 search_exclude: true
 tema: Verde
 tema_oscuro: VerdeOscuro
-title: Soluciones
+title: Soluciones Actividad
 nav_order: 2021-03-12
 description: "Soluciones de la actividad."
 last_modified_date: 2021-03-04T10:00:00+0000
